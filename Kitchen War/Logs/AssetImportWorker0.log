@@ -344,3 +344,16 @@ Received Import Request.
   path: Assets/kitchen_creation_kit/Materials
   artifactKey: Guid(b40c8f175af56463684cb0602bbfb863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/kitchen_creation_kit/Materials using Guid(b40c8f175af56463684cb0602bbfb863) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8377ed2388626bc251c35585e0ae5cc9') in 0.006370 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 785.899636 seconds.
+  path: Assets/kitchen_creation_kit
+  artifactKey: Guid(f6541bd3ed05c457f856f601ac662399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit using Guid(f6541bd3ed05c457f856f601ac662399) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7033526baedca0368aa325b41675a1f2') in 0.002208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.938958 seconds.
+  path: Assets/kitchen_creation_kit/kitchen_creation_kit.FBX
+  artifactKey: Guid(ec40b66161fcdf5458ccee83032f58c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/kitchen_creation_kit.FBX using Guid(ec40b66161fcdf5458ccee83032f58c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00000000000000000000000000000000') in 0.390488 seconds  code(4) message(Build asset version error: assets/kitchen_creation_kit/materials/kitchen_creation_kit-kitchenbase_red.mat in SourceAssetDB has modification time of '2022-11-13T23:31:01Z' while content on disk has modification time of '2022-11-14T00:02:43Z')
+  ERROR: Build asset version error: assets/kitchen_creation_kit/materials/kitchen_creation_kit-kitchenbase_red.mat in SourceAssetDB has modification time of '2022-11-13T23:31:01Z' while content on disk has modification time of '2022-11-14T00:02:43Z'

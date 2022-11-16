@@ -22,7 +22,7 @@ AssetImportWorker1
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-63972
+64406
 Successfully changed project path to: /Users/jasminebittu/Desktop/Portfolio/KitchenWar/Kitchen War
 /Users/jasminebittu/Desktop/Portfolio/KitchenWar/Kitchen War
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -54,7 +54,7 @@ Successfully changed project path to: /Users/jasminebittu/Desktop/Portfolio/Kitc
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 94.42 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 99.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
@@ -69,75 +69,75 @@ Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
 Mono config path = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56676
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Registered in 0.001182 seconds.
+Registered in 0.001016 seconds.
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 78.79 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 78.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.493 seconds
+- Completed reload, in  0.451 seconds
 Domain Reload Profiling:
-	ReloadAssembly (493ms)
-		BeginReloadAssembly (104ms)
+	ReloadAssembly (451ms)
+		BeginReloadAssembly (73ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (317ms)
-			LoadAssemblies (104ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (73ms)
+			CreateAndSetChildDomain (0ms)
+		EndReloadAssembly (307ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (69ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (197ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (191ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (79ms)
+				RefreshPlugins (78ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (87ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
+				ProcessInitializeOnLoadAttributes (85ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006783 seconds.
+Registered in 0.006857 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image /Users/jasminebittu/Desktop/Portfolio/KitchenWar/Kitchen War/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image /Users/jasminebittu/Desktop/Portfolio/KitchenWar/Kitchen War/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 79.41 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 77.64 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.772 seconds
+- Completed reload, in  0.753 seconds
 Domain Reload Profiling:
-	ReloadAssembly (773ms)
-		BeginReloadAssembly (63ms)
+	ReloadAssembly (754ms)
+		BeginReloadAssembly (56ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (16ms)
-		EndReloadAssembly (638ms)
-			LoadAssemblies (65ms)
+			CreateAndSetChildDomain (12ms)
+		EndReloadAssembly (627ms)
+			LoadAssemblies (78ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (170ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (330ms)
+			SetupTypeCache (162ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (312ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (2ms)
+				InitializePlatformSupportModulesInManaged (1ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (79ms)
+				RefreshPlugins (78ms)
 				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (154ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				ProcessInitializeOnLoadAttributes (146ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
 				AfterProcessingInitializeOnLoad (1ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -146,13 +146,13 @@ Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launching external process: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
-Launched and connected shader compiler UnityShaderCompiler after 0.37 seconds
-Refreshing native plugins compatible for Editor in 0.75 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler after 0.35 seconds
+Refreshing native plugins compatible for Editor in 0.59 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4068 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 44 unused Assets / (201.5 KB). Loaded Objects now: 4518.
-Memory consumption went from 264.1 MB to 263.9 MB.
-Total: 3.163375 ms (FindLiveObjects: 0.241708 ms CreateObjectMapping: 0.067875 ms MarkObjects: 2.461750 ms  DeleteObjects: 0.391000 ms)
+Unloading 44 unused Assets / (202.0 KB). Loaded Objects now: 4521.
+Memory consumption went from 264.8 MB to 264.6 MB.
+Total: 2.473792 ms (FindLiveObjects: 0.144333 ms CreateObjectMapping: 0.053584 ms MarkObjects: 2.165250 ms  DeleteObjects: 0.105375 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,8 +166,229 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 576072.426411 seconds.
-  path: Assets/kitchen_creation_kit/kitchen_creation_kit.FBX
-  artifactKey: Guid(ec40b66161fcdf5458ccee83032f58c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/kitchen_creation_kit/kitchen_creation_kit.FBX using Guid(ec40b66161fcdf5458ccee83032f58c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b963bfae8f33bc03f758242ff8486b1') in 1.117252 seconds 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+  Time since last request: 577664.068809 seconds.
+  path: Assets/kitchen_creation_kit/Materials/hotPlates_01.mat
+  artifactKey: Guid(bfa52fe9a3c650a4189997c3cffe08a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/hotPlates_01.mat using Guid(bfa52fe9a3c650a4189997c3cffe08a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600bf1aabb12c364f63f6b485d05341e') in 0.280040 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-Material #25.mat
+  artifactKey: Guid(5ec991c79af9c2f47a200cb3afdeecb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-Material #25.mat using Guid(5ec991c79af9c2f47a200cb3afdeecb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '272485b30381b592a7d5469b7a757fcd') in 0.007295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/kitchen_creation_kit/Materials/dif_card_03.mat
+  artifactKey: Guid(6ee740a258535da4c994bce4bcc265e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/dif_card_03.mat using Guid(6ee740a258535da4c994bce4bcc265e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edd6e8b148b2bea6e47f56f7aa47b040') in 0.009028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-fridge_01_schedule.mat
+  artifactKey: Guid(67425559e45d9d94da7a71a2bcf9ec8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-fridge_01_schedule.mat using Guid(67425559e45d9d94da7a71a2bcf9ec8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df6a7236d356300c97d23b7e45496fc9') in 0.008655 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/kitchen_creation_kit/Materials/dif_card_01.mat
+  artifactKey: Guid(f8768a1ab99f6a44b8e98c3735d5aee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/dif_card_01.mat using Guid(f8768a1ab99f6a44b8e98c3735d5aee5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a23f3d8380e32013a35e1c69f547fdc') in 0.005659 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/kitchen_creation_kit/Materials/dif_cuttingBoard_01.mat
+  artifactKey: Guid(5b6840dd9e0aa3f4299030d508c0a950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/dif_cuttingBoard_01.mat using Guid(5b6840dd9e0aa3f4299030d508c0a950) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f471fd047209e06ba53b53ecc5e4eb9d') in 0.008177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/kitchen_creation_kit/Materials/fridge_01-fridge_01_condenser.mat
+  artifactKey: Guid(bcab62dd50756dd459fd79859b34a0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/fridge_01-fridge_01_condenser.mat using Guid(bcab62dd50756dd459fd79859b34a0ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '453a28fdc9cf2a83bdc679d8f4f1e77c') in 0.027063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-pot_01.mat
+  artifactKey: Guid(2fe1f4d41ab594f47b1c1595979ff510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-pot_01.mat using Guid(2fe1f4d41ab594f47b1c1595979ff510) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6316b7b6935510f52b381fae6903c7') in 0.010198 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-pan_black.mat
+  artifactKey: Guid(04fa16eb1ca91e440b416496dd266a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-pan_black.mat using Guid(04fa16eb1ca91e440b416496dd266a7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88b171859c7afaaf848a861964384a47') in 0.008983 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/kitchen_creation_kit/Materials/dif_broom_brush.mat
+  artifactKey: Guid(a55423c3fd9440341a2a7ecc6e7b5568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/dif_broom_brush.mat using Guid(a55423c3fd9440341a2a7ecc6e7b5568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ab3274d09cc51ab2fa0c43f92084377') in 0.006275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000104 seconds.
+  path: Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-chair_01_metal.mat
+  artifactKey: Guid(05773f0adea7d6c4cb50f760d837b462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-chair_01_metal.mat using Guid(05773f0adea7d6c4cb50f760d837b462) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c393184688e89f58067a636780f7e205') in 0.004717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/kitchen_creation_kit/Materials/fridge_01-fridge_01_red.mat
+  artifactKey: Guid(20a91f812f0a4b24b951c38eae6fa586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/fridge_01-fridge_01_red.mat using Guid(20a91f812f0a4b24b951c38eae6fa586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4dc970b6d67db77600ac7c621448f0') in 0.005656 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-oven_top.mat
+  artifactKey: Guid(e4a0fc08a3afeda4791232c0654c0387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-oven_top.mat using Guid(e4a0fc08a3afeda4791232c0654c0387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14d758b411d3302f42ff487a07dd4cd9') in 0.005730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-fridge_01_card_02.mat
+  artifactKey: Guid(16a69711b9c7e83408cebcfb65da99cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-fridge_01_card_02.mat using Guid(16a69711b9c7e83408cebcfb65da99cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9bf5274bece3cfec93fa24eb1bbbb0') in 0.005772 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/kitchen_creation_kit/Materials/trashBag.mat
+  artifactKey: Guid(ac0ba7a83faba3d4f87f9ad7cae189e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/trashBag.mat using Guid(ac0ba7a83faba3d4f87f9ad7cae189e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa13907bafef05b5b74bb32d6dafa6ee') in 0.007856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/kitchen_creation_kit/Materials/fridge_01-fridge_01_inox.mat
+  artifactKey: Guid(5024b3038f0d9e74785d1aad92355f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/fridge_01-fridge_01_inox.mat using Guid(5024b3038f0d9e74785d1aad92355f9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65b62e05d52972ed3d10b33da32e37e3') in 0.006328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-broom_01_brushBottom.mat
+  artifactKey: Guid(385a8f20e8d250240a0138d96ca7a6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-broom_01_brushBottom.mat using Guid(385a8f20e8d250240a0138d96ca7a6fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122cdcdcb565439f58d2a8e269e995a1') in 0.006555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/kitchen_creation_kit/Materials/dif_childDrawing_02.mat
+  artifactKey: Guid(03cf9a873b9cf7743a7e5844d43589a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/dif_childDrawing_02.mat using Guid(03cf9a873b9cf7743a7e5844d43589a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75debb2a1cf10bc22ce8d11b88c21e5b') in 0.006372 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-oven_black.mat
+  artifactKey: Guid(40adb61c829b704428a16890970f23c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-oven_black.mat using Guid(40adb61c829b704428a16890970f23c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25172f0c551cb8aeed423d9a62e85c8e') in 0.005969 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-glass_01.mat
+  artifactKey: Guid(c1b8caef8f971544894b4565dc43d22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-glass_01.mat using Guid(c1b8caef8f971544894b4565dc43d22a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f2964fee43c7398e0ac09364c9e8296') in 0.007777 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-hotPlates_black.mat
+  artifactKey: Guid(e00f692e9de478b4ea9a2b46d5f014f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-hotPlates_black.mat using Guid(e00f692e9de478b4ea9a2b46d5f014f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01f683293649941fa68902aa5bfa2482') in 0.007992 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-Material #44.mat
+  artifactKey: Guid(f73e61c08b32e4b458218811930b42c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-Material #44.mat using Guid(f73e61c08b32e4b458218811930b42c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f002287c33e89946aa3e2899324f5d7b') in 0.011667 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-dish_01.mat
+  artifactKey: Guid(58c98304a923ec24bb11fe5a613019c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-dish_01.mat using Guid(58c98304a923ec24bb11fe5a613019c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8839bb41e393df4b2e726b916311c7') in 0.010256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-fridge_01_black.mat
+  artifactKey: Guid(8f77c476804ed15468cc0f1e3c399b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-fridge_01_black.mat using Guid(8f77c476804ed15468cc0f1e3c399b5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ccb512ac86602bd2b0041750f4c629b') in 0.006357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-fridge_01_condenser.mat
+  artifactKey: Guid(376bf640f1479c147b8455d05fad6496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-fridge_01_condenser.mat using Guid(376bf640f1479c147b8455d05fad6496) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6f7b754c0a0484dd42643ecb60b2b63') in 0.007057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-Material #37.mat
+  artifactKey: Guid(420d038d7d481414eb7f5e73de1d7f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-Material #37.mat using Guid(420d038d7d481414eb7f5e73de1d7f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '803f29d8152a29b207125aee957466e4') in 0.005971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-pan_metal.mat
+  artifactKey: Guid(dbbdb8024c8c4534fac6dab62403309d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-pan_metal.mat using Guid(dbbdb8024c8c4534fac6dab62403309d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005b4db8a36c7fdfb0ca3b23ef1092d9') in 0.005717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-No Name.mat
+  artifactKey: Guid(24e6e4ae0db5e1c43b29549738cf1467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-No Name.mat using Guid(24e6e4ae0db5e1c43b29549738cf1467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9732fc9853f1cb0a5afcd8779ee811f7') in 0.005717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-broom_01_black.mat
+  artifactKey: Guid(c479c9d7fa120fe41ab4b7ee1ce78fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-broom_01_black.mat using Guid(c479c9d7fa120fe41ab4b7ee1ce78fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b53e07f40439c9f993f4ba690cb9097') in 0.005634 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-bean_01_metal.mat
+  artifactKey: Guid(ba9f59801e767604da8335e8046a62c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-bean_01_metal.mat using Guid(ba9f59801e767604da8335e8046a62c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d5ba83e9a0e67ab17f59276de1fffea') in 0.005362 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/kitchen_creation_kit/Materials/fridge_01-fridge_01_card_03.mat
+  artifactKey: Guid(39df5f391b37bfa43804265b8a4141a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/fridge_01-fridge_01_card_03.mat using Guid(39df5f391b37bfa43804265b8a4141a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39126183e9023a7420b20499293bc7dd') in 0.006201 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/kitchen_creation_kit/Materials/dif_broom_brushBottom.mat
+  artifactKey: Guid(abb08850106aac8458c1dbbc0e22b8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/dif_broom_brushBottom.mat using Guid(abb08850106aac8458c1dbbc0e22b8a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a810b262459b1f5584d619ea6771cd4') in 0.004902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-broom_01_grey.mat
+  artifactKey: Guid(e404bb3262aa9654e80281f295635415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-broom_01_grey.mat using Guid(e404bb3262aa9654e80281f295635415) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be697838ce399507e59f9672af37613d') in 0.005884 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000067 seconds.
+  path: Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-kitchenBase_base.mat
+  artifactKey: Guid(898b7e19b43282c438519f8813e5e6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-kitchenBase_base.mat using Guid(898b7e19b43282c438519f8813e5e6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ef9557b3d8846f3c86a3a5349613bac') in 0.005814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-cuttingBoard_01.mat
+  artifactKey: Guid(84221113fe0227c4b8f84510f1c7e7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-cuttingBoard_01.mat using Guid(84221113fe0227c4b8f84510f1c7e7ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b09f22efde286aa708af16a9e1cf343') in 0.005577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/kitchen_creation_kit/Materials/dif_childDrawing_01.mat
+  artifactKey: Guid(1906264a40c1b994598189dc9a78d1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/dif_childDrawing_01.mat using Guid(1906264a40c1b994598189dc9a78d1c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '114a033af6812e41fae4343b2838f3a1') in 0.006256 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000085 seconds.
+  path: Assets/kitchen_creation_kit/Materials/fridge_01-fridge_01_card_02.mat
+  artifactKey: Guid(2fb345bf6ba155649afe33714008412b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/fridge_01-fridge_01_card_02.mat using Guid(2fb345bf6ba155649afe33714008412b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b155dcde18024781678b0641ccdac67') in 0.005842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-broom_01_brush.mat
+  artifactKey: Guid(483c6ed8bc562dc46925a715586cdc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Materials/kitchen_creation_kit-broom_01_brush.mat using Guid(483c6ed8bc562dc46925a715586cdc3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7507439c3792c7f3e659d08cba8bba3') in 0.005484 seconds 

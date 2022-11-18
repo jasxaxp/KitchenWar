@@ -1,0 +1,696 @@
+Unity Editor version:    2021.3.11f1 (0a5ca18544bf)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.0 (Build 22A380)
+Darwin version:          22.1.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/isa/Desktop/KitchenWar/Kitchen War
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+60619
+Successfully changed project path to: /Users/isa/Desktop/KitchenWar/Kitchen War
+/Users/isa/Desktop/KitchenWar/Kitchen War
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 178.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/isa/Desktop/KitchenWar/Kitchen War/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) UHD Graphics 617 (low power)
+Metal devices available: 1
+0: Intel(R) UHD Graphics 617 (low power)
+Using device Intel(R) UHD Graphics 617 (low power)
+Initializing Metal device caps: Intel(R) UHD Graphics 617
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56081
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.005534 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 130.49 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.325 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1326ms)
+		BeginReloadAssembly (251ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (899ms)
+			LoadAssemblies (253ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (299ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (460ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (131ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (256ms)
+				ProcessInitializeOnLoadMethodAttributes (63ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.025885 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/KitchenWar/Kitchen War/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/KitchenWar/Kitchen War/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 176.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.286 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2288ms)
+		BeginReloadAssembly (145ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (32ms)
+		EndReloadAssembly (1959ms)
+			LoadAssemblies (250ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (440ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (111ms)
+			SetupLoadedEditorAssemblies (1021ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (176ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (564ms)
+				ProcessInitializeOnLoadMethodAttributes (138ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.14 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4068 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (170.5 KB). Loaded Objects now: 4525.
+Memory consumption went from 138.8 MB to 138.7 MB.
+Total: 6.158886 ms (FindLiveObjects: 0.532018 ms CreateObjectMapping: 0.672493 ms MarkObjects: 4.595812 ms  DeleteObjects: 0.356730 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 90667.574073 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Board.prefab
+  artifactKey: Guid(da39b72aa18fa5e48b10d7ec95000d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Board.prefab using Guid(da39b72aa18fa5e48b10d7ec95000d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad16ea08f5cf19dc8a6a71b1824be394') in 3.748615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000203 seconds.
+  path: Assets/Kitchen Asset/Prefabs/CornFlakes.prefab
+  artifactKey: Guid(95cb85553a003914f8143e52b614b08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/CornFlakes.prefab using Guid(95cb85553a003914f8143e52b614b08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b414adc1623fc31bceb90ce6d1282d6') in 0.411846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 198.419899 seconds.
+  path: Assets/Kitchen Asset/Prefabs/deeppan.prefab
+  artifactKey: Guid(d15472a0ad9a62e49a54ad28cabd11cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/deeppan.prefab using Guid(d15472a0ad9a62e49a54ad28cabd11cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e6343cd174de385aeb0b65119ab7173') in 0.228484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.588702 seconds.
+  path: Assets/Kitchen Asset/Prefabs/DeepPlate.prefab
+  artifactKey: Guid(573c24db696ae0b4091b43e2066b558d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/DeepPlate.prefab using Guid(573c24db696ae0b4091b43e2066b558d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bcc4731d3ce7efa467b3545bc8345f6') in 0.156864 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.021681 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Fork.prefab
+  artifactKey: Guid(b540476b589f10f46abb067b58e9e698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Fork.prefab using Guid(b540476b589f10f46abb067b58e9e698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df2a640a6c2fcf0ec0c1c1ed3d006d0') in 0.117418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.272475 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Glass.prefab
+  artifactKey: Guid(3d17997aaf2fc33409ffa2305a0d2dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Glass.prefab using Guid(3d17997aaf2fc33409ffa2305a0d2dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20a5a60b6fd033cbcfd115b82fa109b2') in 1.429104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.106290 seconds.
+  path: Assets/Kitchen Asset/Prefabs/KnifeKitchen.prefab
+  artifactKey: Guid(733c9f99aae6b2a4387b2583f86820e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/KnifeKitchen.prefab using Guid(733c9f99aae6b2a4387b2583f86820e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59f8028e5e095a3d6c884ebc6190af88') in 0.118922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.211779 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Ladle.prefab
+  artifactKey: Guid(e63f6cfdb152e03478e17e66e6dc046e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Ladle.prefab using Guid(e63f6cfdb152e03478e17e66e6dc046e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9786b9d09b573abc97afb17d5e53ab3') in 0.105150 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.318426 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Lemon.prefab
+  artifactKey: Guid(7796e5e8ea6331043b117257a041c92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Lemon.prefab using Guid(7796e5e8ea6331043b117257a041c92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dae3a96202b0748f248508ebfb53ded') in 0.157504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.783842 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Milk.prefab
+  artifactKey: Guid(a7b8c6cc9bfdb4d45a68517821f246a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Milk.prefab using Guid(a7b8c6cc9bfdb4d45a68517821f246a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d029ecc9d3c6b7d22e9b6aa9869c2d8') in 0.174381 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.385793 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Pan.prefab
+  artifactKey: Guid(12350bfc702bef44499bfd46c8dbb426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Pan.prefab using Guid(12350bfc702bef44499bfd46c8dbb426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50cb42158f80bbc427ad976cb938bb40') in 0.104466 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.774253 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Plate1.prefab
+  artifactKey: Guid(8e9bdb5bf8e1022489334c16a0e43dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Plate1.prefab using Guid(8e9bdb5bf8e1022489334c16a0e43dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '069c72f4c3bf910edaf31b73da81b4ea') in 1.081705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.713529 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Plate2.prefab
+  artifactKey: Guid(9fb9d47ff93c62c4d81c6e1da501012a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Plate2.prefab using Guid(9fb9d47ff93c62c4d81c6e1da501012a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685f84ae4522719f2a58d91a2267ca60') in 0.037881 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.880560 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Plate3.prefab
+  artifactKey: Guid(acbc7238c9c191d4d8aff4ab3a575a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Plate3.prefab using Guid(acbc7238c9c191d4d8aff4ab3a575a69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6808daf0ba07dd05992d74879107545') in 0.038283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.762972 seconds.
+  path: Assets/Kitchen Asset/Prefabs/RollingPin.prefab
+  artifactKey: Guid(4097a285d710b744b9ff6cb685207bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/RollingPin.prefab using Guid(4097a285d710b744b9ff6cb685207bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c3260aa4450a667340a383950b48f95') in 0.108505 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.478270 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Sauce1.prefab
+  artifactKey: Guid(c8b63a757cfc15c40a46b3d1a93f140b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Sauce1.prefab using Guid(c8b63a757cfc15c40a46b3d1a93f140b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77349bce6cb294e5463fc9cb52b29a48') in 0.132070 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.615600 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Spoon.prefab
+  artifactKey: Guid(32cf7cb5324804148862798ee1f49df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Spoon.prefab using Guid(32cf7cb5324804148862798ee1f49df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20b35b2d6c7221cbfe8ce47dc41c80d1') in 0.050899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.163100 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Stand.prefab
+  artifactKey: Guid(f1969e8867becad48968186262fbf790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Stand.prefab using Guid(f1969e8867becad48968186262fbf790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c29a5c168e214aa1da9945d9a4f0a9b') in 0.111681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.393411 seconds.
+  path: Assets/Kitchen Asset/Prefabs/table.prefab
+  artifactKey: Guid(f3b80ff6904947949a912527d471aaa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/table.prefab using Guid(f3b80ff6904947949a912527d471aaa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68a0ffaddc3b5500fe13d00dc206df42') in 0.178918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.725595 seconds.
+  path: Assets/Kitchen Asset/Prefabs/WaterMElon.prefab
+  artifactKey: Guid(595f07ceb372f6843847d984ba9aaf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/WaterMElon.prefab using Guid(595f07ceb372f6843847d984ba9aaf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f58be2b0686c2ad5543c37fd6c52254') in 1.330337 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.074756 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/KitchenWar/Kitchen War/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/KitchenWar/Kitchen War/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.22 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in 13.487 seconds
+Domain Reload Profiling:
+	ReloadAssembly (13491ms)
+		BeginReloadAssembly (1447ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (136ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (515ms)
+		EndReloadAssembly (9566ms)
+			LoadAssemblies (1256ms)
+			RebuildTransferFunctionScriptingTraits (3ms)
+			SetupTypeCache (2931ms)
+			ReleaseScriptCaches (3ms)
+			RebuildScriptCaches (905ms)
+			SetupLoadedEditorAssemblies (4338ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (68ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (453ms)
+				ProcessInitializeOnLoadAttributes (3354ms)
+				ProcessInitializeOnLoadMethodAttributes (447ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (53ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 6.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (146.1 KB). Loaded Objects now: 4571.
+Memory consumption went from 217.0 MB to 216.9 MB.
+Total: 8.341567 ms (FindLiveObjects: 0.699467 ms CreateObjectMapping: 0.753013 ms MarkObjects: 6.572411 ms  DeleteObjects: 0.312830 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1201.374450 seconds.
+  path: Assets/CoffeeShopStarterPack/Animations
+  artifactKey: Guid(6f06c885f68e1475c8ca143144f4e940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Animations using Guid(6f06c885f68e1475c8ca143144f4e940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f436eb8e8b96a4278596fd2aacf06800') in 0.108232 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.672826 seconds.
+  path: Assets/CoffeeShopStarterPack/Materials
+  artifactKey: Guid(36615f0c99aeb4eb79cb65a5e5fe8c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Materials using Guid(36615f0c99aeb4eb79cb65a5e5fe8c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4aa3cef29b2c65d4a33f34aaeb937516') in 0.002468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.683856 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs
+  artifactKey: Guid(4967014c58c284374acae143f4eea175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs using Guid(4967014c58c284374acae143f4eea175) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb331e1e00d7715c84203d59606eb880') in 0.001637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.046333 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/Bewerage
+  artifactKey: Guid(2393b3bb831dd43eebbf82a7a9b88ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/Bewerage using Guid(2393b3bb831dd43eebbf82a7a9b88ecf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd3215d89bddc9ac3359ecd4b9b41445') in 0.007521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.907095 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/Gameplay
+  artifactKey: Guid(532c3a05764f7413e8126fc843eb82ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/Gameplay using Guid(532c3a05764f7413e8126fc843eb82ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0842686165e37c5617a743d1bf76c06b') in 0.004182 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.287532 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/OrderGenerator.prefab
+  artifactKey: Guid(4dee7bea4c4584015894b8d911e97c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/OrderGenerator.prefab using Guid(4dee7bea4c4584015894b8d911e97c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240e5a510a0844e4879705fa8d351ac1') in 0.145490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.229127 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cheesecake_blueberry.prefab
+  artifactKey: Guid(3543dbd2cbef54b4395a83d1e32f7419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cheesecake_blueberry.prefab using Guid(3543dbd2cbef54b4395a83d1e32f7419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8452450be855de9044cc20d5d59ba4e') in 0.129963 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.602284 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cheesecake_chocolatte.prefab
+  artifactKey: Guid(bb5b37d8246d44e598c671792c3ac74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cheesecake_chocolatte.prefab using Guid(bb5b37d8246d44e598c671792c3ac74a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82d95f91c71f6302810bfe33d58fb9a6') in 0.019762 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.837633 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cheesecake_lime.prefab
+  artifactKey: Guid(7989684eaf7d44a699019d7be7625a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cheesecake_lime.prefab using Guid(7989684eaf7d44a699019d7be7625a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef53beb377fdadf75807dda6426a457') in 0.021277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.185392 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cheesecake_strawberry.prefab
+  artifactKey: Guid(31cd80546c3d1474f9335e444db120ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cheesecake_strawberry.prefab using Guid(31cd80546c3d1474f9335e444db120ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd97503368318f285c845bf72be701272') in 0.024360 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.455641 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_croissant.prefab
+  artifactKey: Guid(9007700338d194bd18e3086f4600a7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_croissant.prefab using Guid(9007700338d194bd18e3086f4600a7ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe82b500e5186836badb327fd31491b5') in 0.020641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.704648 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cookie.prefab
+  artifactKey: Guid(17ac7eebcd6e04cc1909e60b6bc2fc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cookie.prefab using Guid(17ac7eebcd6e04cc1909e60b6bc2fc01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51cb9ca08ab84a62554f3647c04d32db') in 0.023322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 85.039976 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_croissant_toserve.prefab
+  artifactKey: Guid(b4ed931ca91f741b6a600b8a20639eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_croissant_toserve.prefab using Guid(b4ed931ca91f741b6a600b8a20639eed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '436b5eeff81131a0848ad964a93b760b') in 0.044118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.980117 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cup01.prefab
+  artifactKey: Guid(8d57f19c265de49429f0074af4e75232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cup01.prefab using Guid(8d57f19c265de49429f0074af4e75232) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30e95ee40c13b34e509c39905c84771c') in 0.037277 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.825815 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cupboard01.prefab
+  artifactKey: Guid(31264236aa69f49fba6ca492242bd217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cupboard01.prefab using Guid(31264236aa69f49fba6ca492242bd217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b4eeffe0fbf20b7413b407e56fc47f1') in 0.039072 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.362338 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cupboard02.prefab
+  artifactKey: Guid(af9cdd9ba10234507875bb32ff50333b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cupboard02.prefab using Guid(af9cdd9ba10234507875bb32ff50333b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fb71f475280cbb5d4137baa52ba3ae4') in 0.034218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.722271 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cupboard_corner.prefab
+  artifactKey: Guid(2c04cf954647e43589c56b0df4058564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cupboard_corner.prefab using Guid(2c04cf954647e43589c56b0df4058564) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ffadc27f3500db9a0f7a8a81b0749e') in 0.017644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.282234 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cupboard_narrow.prefab
+  artifactKey: Guid(b8c3087888fc448acb63e643fea215d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cupboard_narrow.prefab using Guid(b8c3087888fc448acb63e643fea215d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fc8b1eb7e59dd1e5e4a9bc5a02851b8') in 0.036101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.537521 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cupcake_cherry.prefab
+  artifactKey: Guid(75221d19731aa453d81714a24451c72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cupcake_cherry.prefab using Guid(75221d19731aa453d81714a24451c72a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd5d7fccc5fc0e18b6a8f12dc0d141f') in 0.018896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 80.179498 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cupcake_chocolattechips.prefab
+  artifactKey: Guid(5e6527792754e41d48aec14c1dafd8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cupcake_chocolattechips.prefab using Guid(5e6527792754e41d48aec14c1dafd8af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33bc1ae55ecd23d0ab83ed7715111ca2') in 0.021152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.654708 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cupcake_oreo.prefab
+  artifactKey: Guid(7c313b72ae95e4454901041fa86d8984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cupcake_oreo.prefab using Guid(7c313b72ae95e4454901041fa86d8984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4102f953a5f4397127523f59ec9c8f') in 0.028597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.069483 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_cupcake_redvelvet.prefab
+  artifactKey: Guid(450f6d2399809488dab3e957dfe78299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_cupcake_redvelvet.prefab using Guid(450f6d2399809488dab3e957dfe78299) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1249ba52ffdac3ab74dcbf1e44ea2c2f') in 0.021271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.821673 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_display01.prefab
+  artifactKey: Guid(fbbf1aaff00e94748a4a8f9d6a37714d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_display01.prefab using Guid(fbbf1aaff00e94748a4a8f9d6a37714d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9efa2446f6f3a5abd76f05861d84af25') in 0.710853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 106.779224 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_display_cube.prefab
+  artifactKey: Guid(5090b9010d8ca4476a4f9b1315906d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_display_cube.prefab using Guid(5090b9010d8ca4476a4f9b1315906d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c206092440c0ecec0c695e25b906c680') in 0.059989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.812233 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_display04.prefab
+  artifactKey: Guid(8cbd0a9a7593f47c696b2e27706abed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_display04.prefab using Guid(8cbd0a9a7593f47c696b2e27706abed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d24673269e89b7ba66ae90fd071472') in 0.039580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.812604 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_display03.prefab
+  artifactKey: Guid(2c597a3dd113e42e5b84bb1441c18690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_display03.prefab using Guid(2c597a3dd113e42e5b84bb1441c18690) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2aa41f41e2ac5449946740834e6ea62f') in 0.036796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.017907 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_display02.prefab
+  artifactKey: Guid(a053e34ccc3a9480ca81efece4e7cfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_display02.prefab using Guid(a053e34ccc3a9480ca81efece4e7cfa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbb97b9d1c959d0a0b72b005b68e45bf') in 0.050226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.762066 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_display_cube02.prefab
+  artifactKey: Guid(446c50f18dcf54a6f8feb4113c421b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_display_cube02.prefab using Guid(446c50f18dcf54a6f8feb4113c421b9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acab814a160c95f0be0b88a74a1ff315') in 0.019671 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.821942 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_doughnut_white.prefab
+  artifactKey: Guid(77b051a1cce5b4a36a8cca319997554d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_doughnut_white.prefab using Guid(77b051a1cce5b4a36a8cca319997554d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62649dba9a6d350cbced82335c8beb3e') in 0.020409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.129707 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_doughnut_pink.prefab
+  artifactKey: Guid(0683ba921c1a542ea8dae92b271c1e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_doughnut_pink.prefab using Guid(0683ba921c1a542ea8dae92b271c1e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627741f598f75b015f696da1e7cd4d14') in 0.020450 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.157163 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_espresso_cup.prefab
+  artifactKey: Guid(2dd019f1380a8464da36c528baec5b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_espresso_cup.prefab using Guid(2dd019f1380a8464da36c528baec5b4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47be91e83907ed86982143ccb46689e8') in 0.027386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.970863 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_espressomachine.prefab
+  artifactKey: Guid(a0634ab2a98bd4b78af017c116badda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_espressomachine.prefab using Guid(a0634ab2a98bd4b78af017c116badda5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e215c05e38bddc4b1ecdc9ae5fb3aa7') in 0.045647 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.249324 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_frenchtoas_cherry_tomato.prefab
+  artifactKey: Guid(3d66c34ece81a4e88b0918ae6e9e4b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_frenchtoas_cherry_tomato.prefab using Guid(3d66c34ece81a4e88b0918ae6e9e4b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4b255e01c2ef22b164c65aa01416880') in 0.049790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.094398 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_frenchtoast_egg.prefab
+  artifactKey: Guid(d69ebb5455c17482da6677eadea7a231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_frenchtoast_egg.prefab using Guid(d69ebb5455c17482da6677eadea7a231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f384f94ea6af40a3280a1c99fc400b9e') in 0.035724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.698941 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_frenchtoast_olives.prefab
+  artifactKey: Guid(340d47ae895ab4f1cb1c63107c57ff7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_frenchtoast_olives.prefab using Guid(340d47ae895ab4f1cb1c63107c57ff7f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a27a9250c04f8c86be8cfae4dd23fb5') in 0.038228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.712125 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_fridge.prefab
+  artifactKey: Guid(05fa88b4fa377418eaac0976b320709e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_fridge.prefab using Guid(05fa88b4fa377418eaac0976b320709e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49f9fcccc37c2db924d943b09e40670') in 0.040468 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.193181 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_lemonade.prefab
+  artifactKey: Guid(7b9e9044605a04568a0c9d41cebd7913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_lemonade.prefab using Guid(7b9e9044605a04568a0c9d41cebd7913) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df0466f61bffe8ee675b64a77bdccced') in 0.048461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.559929 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_macaron_tower.prefab
+  artifactKey: Guid(7afe7aeeef6f6423085b55ce10305c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_macaron_tower.prefab using Guid(7afe7aeeef6f6423085b55ce10305c15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a90a77b55d7ab59b2db5fb4756024a4') in 0.023059 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.232217 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_macaronbox.prefab
+  artifactKey: Guid(04e98152be2a54c62993ce0e60e111fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_macaronbox.prefab using Guid(04e98152be2a54c62993ce0e60e111fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4263f45dde40a44dde93e24806f9106d') in 0.020550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.323018 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_orangejuice.prefab
+  artifactKey: Guid(8b6c44dc7c0ee401e8326e32b669a93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_orangejuice.prefab using Guid(8b6c44dc7c0ee401e8326e32b669a93c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f5e6d7992ca33376fc7cd549defbeaf') in 0.032542 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.794962 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_mochapot.prefab
+  artifactKey: Guid(bbfd91b99086b4acb9d41d225cf41bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_mochapot.prefab using Guid(bbfd91b99086b4acb9d41d225cf41bb2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd34b5bbdce3d4ad32e0e89b9d72d06c6') in 0.018089 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.260835 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_microwave.prefab
+  artifactKey: Guid(67b6bd8afc16f482b8cdff490a857fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_microwave.prefab using Guid(67b6bd8afc16f482b8cdff490a857fa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76d8562fb6561d6bbc6711413aecb34c') in 0.044614 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.923231 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_pan.prefab
+  artifactKey: Guid(f3e44870c7d004aa3a92cdfabc5207bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_pan.prefab using Guid(f3e44870c7d004aa3a92cdfabc5207bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0dd54a000e706fe1a91fe39d10aedf4') in 0.018087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.814259 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_paper.prefab
+  artifactKey: Guid(2e244810fcf8442c2ae5cd7b1f494341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_paper.prefab using Guid(2e244810fcf8442c2ae5cd7b1f494341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad37c002b8e633e50e79d90c87c2b532') in 0.020449 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.197071 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_plate01.prefab
+  artifactKey: Guid(36aa94bb9e7364945ad8a487c4c3ee62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_plate01.prefab using Guid(36aa94bb9e7364945ad8a487c4c3ee62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4cd44b5f63a6ecee608b87fb1efac74') in 0.017567 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.301090 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_plate02.prefab
+  artifactKey: Guid(a8596fda882d0439389c54b698c0da6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_plate02.prefab using Guid(a8596fda882d0439389c54b698c0da6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20ee424ba58fc5eb44630735678952b8') in 0.018395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.555847 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_sculent01_M.prefab
+  artifactKey: Guid(a880b7f20a3694308be2bff57c22dd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_sculent01_M.prefab using Guid(a880b7f20a3694308be2bff57c22dd9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87606ba2ff22ca9818b916e47d111eb1') in 0.038822 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 135.531902 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_sculent01_S.prefab
+  artifactKey: Guid(cc432fe3a7a9e4db985762c1cf45d3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_sculent01_S.prefab using Guid(cc432fe3a7a9e4db985762c1cf45d3c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ea4cbc3dafdadb102302651a81159cc') in 0.055587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.976864 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_sculent02_S.prefab
+  artifactKey: Guid(1e390fa4bfb8648509b8ecf4e7237451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_sculent02_S.prefab using Guid(1e390fa4bfb8648509b8ecf4e7237451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b8906270d1358ce63c5011fe2407652') in 0.046076 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.154032 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_stove.prefab
+  artifactKey: Guid(2bb858b872f0f4fb89e1d1263c276480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_stove.prefab using Guid(2bb858b872f0f4fb89e1d1263c276480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1810f7b89211be16fe12fc5e4ace72f3') in 0.040906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.348422 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_tea_cup01.prefab
+  artifactKey: Guid(cb5347f407bce459e92511942fdca089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_tea_cup01.prefab using Guid(cb5347f407bce459e92511942fdca089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '464f166767e15af5ddcec15cd728fb0f') in 0.051323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.711243 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_tea_cup02.prefab
+  artifactKey: Guid(806ac5fcbcc474da28cf79b0a4df73a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_tea_cup02.prefab using Guid(806ac5fcbcc474da28cf79b0a4df73a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c99676c23b8bf9b63e2862d44a5093') in 0.037737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.913708 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_tea_pot.prefab
+  artifactKey: Guid(da135e105813e4b9d8fe98a58bfbcb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_tea_pot.prefab using Guid(da135e105813e4b9d8fe98a58bfbcb0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e82b980943d611e13eb95c7f270dca') in 0.022238 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.747058 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_toast_cheese.prefab
+  artifactKey: Guid(8ba0ff2adae60496aac6d2b5df996d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_toast_cheese.prefab using Guid(8ba0ff2adae60496aac6d2b5df996d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee718d43ebde33510946288401b790fe') in 0.024980 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.220062 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/UI
+  artifactKey: Guid(9299969f9b5d3429fbe5b80f025fb41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/UI using Guid(9299969f9b5d3429fbe5b80f025fb41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '99003ba373bf5f221208948433352a3d') in 0.002789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.947870 seconds.
+  path: Assets/CoffeeShopStarterPack/Manual.pdf
+  artifactKey: Guid(cbf9cb7fff14d45db91136934681ef0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Manual.pdf using Guid(cbf9cb7fff14d45db91136934681ef0b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9837d04ac9edaaf937dedf4170aff985') in 0.295005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.594177 seconds.
+  path: Assets/CoffeeShopStarterPack/Test
+  artifactKey: Guid(e6e296e84914242b991f930d2cad6bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Test using Guid(e6e296e84914242b991f930d2cad6bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70441c594e397f88d832d6884831aea9') in 0.002623 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.962652 seconds.
+  path: Assets/CoffeeShopStarterPack/UI
+  artifactKey: Guid(1661e8fcafc8b4c0784307a7d17f31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/UI using Guid(1661e8fcafc8b4c0784307a7d17f31af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8c1c51fe4d9f541c13a2f7b0c502048') in 0.001786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.485799 seconds.
+  path: Assets/CoffeeShopStarterPack/Textures
+  artifactKey: Guid(19c3c0b3f53374f38a6360de8bbcefbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Textures using Guid(19c3c0b3f53374f38a6360de8bbcefbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cb53db4e3b160e6479e90562a7f196') in 0.001971 seconds 

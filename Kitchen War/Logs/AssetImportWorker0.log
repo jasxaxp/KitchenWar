@@ -694,3 +694,163 @@ Received Import Request.
   path: Assets/CoffeeShopStarterPack/Textures
   artifactKey: Guid(19c3c0b3f53374f38a6360de8bbcefbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/CoffeeShopStarterPack/Textures using Guid(19c3c0b3f53374f38a6360de8bbcefbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6cb53db4e3b160e6479e90562a7f196') in 0.001971 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 681.442066 seconds.
+  path: Assets/CoffeeShopStarterPack/Scenes
+  artifactKey: Guid(b30e2cf3c01784edeb0a083089712b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Scenes using Guid(b30e2cf3c01784edeb0a083089712b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7c9993aaedf481431240194bead64e7') in 0.003984 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.813347 seconds.
+  path: Assets/CoffeeShopStarterPack/Scenes/ScreenShotScene.unity
+  artifactKey: Guid(7a86ffb88e5c74c948b846a69a2072b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Scenes/ScreenShotScene.unity using Guid(7a86ffb88e5c74c948b846a69a2072b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c13c36c94eaa66b6fe92966c9f08bfb6') in 0.002931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.672614 seconds.
+  path: Assets/CoffeeShopStarterPack/Scenes/PropGrid.unity
+  artifactKey: Guid(90d01cec07f064ff6b13b33fa6b8aef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Scenes/PropGrid.unity using Guid(90d01cec07f064ff6b13b33fa6b8aef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd22af2c52019b9f94fc4eb5224f6e73') in 0.002457 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.271533 seconds.
+  path: Assets/CoffeeShopStarterPack/Scenes/GameplayScene.unity
+  artifactKey: Guid(54b91dada95464896b59abb87c70cccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Scenes/GameplayScene.unity using Guid(54b91dada95464896b59abb87c70cccc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b542415ddd7f91f28e34485a0d9f20a9') in 0.002491 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.694273 seconds.
+  path: Assets/CoffeeShopStarterPack/Scenes/DecorativeScene.unity
+  artifactKey: Guid(f3e602352418f4efb888071ff0f28f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Scenes/DecorativeScene.unity using Guid(f3e602352418f4efb888071ff0f28f12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7113805d7856e3381019f81130db9e6b') in 0.002324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.318915 seconds.
+  path: Assets/CoffeeShopStarterPack/Scenes/InteractableObjects.unity
+  artifactKey: Guid(7f488add6216047ba9cedbecc145fac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Scenes/InteractableObjects.unity using Guid(7f488add6216047ba9cedbecc145fac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae4747d73d6c53dc1b5db1f595dccc6b') in 0.001925 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005636 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/KitchenWar/Kitchen War/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/KitchenWar/Kitchen War/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 11.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.992 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4996ms)
+		BeginReloadAssembly (786ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (64ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (336ms)
+		EndReloadAssembly (3827ms)
+			LoadAssemblies (531ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1339ms)
+			ReleaseScriptCaches (5ms)
+			RebuildScriptCaches (200ms)
+			SetupLoadedEditorAssemblies (1617ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (6ms)
+				RefreshPlugins (11ms)
+				BeforeProcessingInitializeOnLoad (304ms)
+				ProcessInitializeOnLoadAttributes (1092ms)
+				ProcessInitializeOnLoadMethodAttributes (151ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (28ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 4.97 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 32 unused Assets / (150.9 KB). Loaded Objects now: 4574.
+Memory consumption went from 291.7 MB to 291.6 MB.
+Total: 7.986223 ms (FindLiveObjects: 0.436721 ms CreateObjectMapping: 0.383891 ms MarkObjects: 6.782219 ms  DeleteObjects: 0.381919 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006940 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/KitchenWar/Kitchen War/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/KitchenWar/Kitchen War/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 2.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.323 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4325ms)
+		BeginReloadAssembly (262ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (13ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (116ms)
+		EndReloadAssembly (3672ms)
+			LoadAssemblies (188ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1149ms)
+			ReleaseScriptCaches (4ms)
+			RebuildScriptCaches (270ms)
+			SetupLoadedEditorAssemblies (1705ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (36ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (4ms)
+				BeforeProcessingInitializeOnLoad (302ms)
+				ProcessInitializeOnLoadAttributes (1163ms)
+				ProcessInitializeOnLoadMethodAttributes (183ms)
+				AfterProcessingInitializeOnLoad (14ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (32ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 12.32 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4095 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (150.1 KB). Loaded Objects now: 4577.
+Memory consumption went from 294.5 MB to 294.3 MB.
+Total: 13.817377 ms (FindLiveObjects: 0.765726 ms CreateObjectMapping: 1.053945 ms MarkObjects: 11.465184 ms  DeleteObjects: 0.529930 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 208.809870 seconds.
+  path: Assets/Scenes/MainGame.unity
+  artifactKey: Guid(19178ca2a51334ed9985187b66e4df78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainGame.unity using Guid(19178ca2a51334ed9985187b66e4df78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2e4065f3fcb43286b27cffeaf579274') in 0.018189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.129162 seconds.
+  path: Assets/CoffeeShopStarterPack/Models/PW_stove.fbx
+  artifactKey: Guid(9f0519225c65144c0b637b15dda857c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Models/PW_stove.fbx using Guid(9f0519225c65144c0b637b15dda857c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4292a1645b122ff3718285b4c1c434e8') in 0.604411 seconds 

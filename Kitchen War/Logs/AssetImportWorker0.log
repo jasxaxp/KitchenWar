@@ -698,3 +698,15 @@ Received Import Request.
   path: Assets/StudioBillion/House Interior/Prefabs/Washer.prefab
   artifactKey: Guid(f0d11665f5b6e4e4f9262a51b4b2cd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/StudioBillion/House Interior/Prefabs/Washer.prefab using Guid(f0d11665f5b6e4e4f9262a51b4b2cd2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84228f56f0b89c54a59af3c62a57de2c') in 0.029758 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10229.379080 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_display04.prefab
+  artifactKey: Guid(8cbd0a9a7593f47c696b2e27706abed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_display04.prefab using Guid(8cbd0a9a7593f47c696b2e27706abed8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fba7c56dc8dbd56f9baf8f8c81071e9') in 1.303910 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_fridge.prefab
+  artifactKey: Guid(05fa88b4fa377418eaac0976b320709e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_fridge.prefab using Guid(05fa88b4fa377418eaac0976b320709e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7183c9efa5ff1fac9aedcd323c8ff651') in 0.057466 seconds 

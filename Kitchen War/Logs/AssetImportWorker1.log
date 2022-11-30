@@ -380,3 +380,9 @@ Received Import Request.
   path: Assets/StudioBillion/House Interior/Prefabs/Vase.prefab
   artifactKey: Guid(419bf7a95ce43b847833705cfa58c35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/StudioBillion/House Interior/Prefabs/Vase.prefab using Guid(419bf7a95ce43b847833705cfa58c35b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '351ffc08339e6aeb08f300ae1b3cf918') in 0.022292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10231.693846 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_display_cube.prefab
+  artifactKey: Guid(5090b9010d8ca4476a4f9b1315906d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_display_cube.prefab using Guid(5090b9010d8ca4476a4f9b1315906d61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23fc79cc4aacf7854e768f3d7f28978') in 1.026517 seconds 

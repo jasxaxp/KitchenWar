@@ -1,0 +1,286 @@
+Unity Editor version:    2021.3.11f1 (0a5ca18544bf)
+Branch:                  2021.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.0 (Build 22A380)
+Darwin version:          22.1.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        8192 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/isa/Desktop/KitchenWar/Kitchen War
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+53538
+Successfully changed project path to: /Users/isa/Desktop/KitchenWar/Kitchen War
+/Users/isa/Desktop/KitchenWar/Kitchen War
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 323.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.11f1 (0a5ca18544bf)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/isa/Desktop/KitchenWar/Kitchen War/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: Intel(R) UHD Graphics 617 (low power)
+Metal devices available: 1
+0: Intel(R) UHD Graphics 617 (low power)
+Using device Intel(R) UHD Graphics 617 (low power)
+Initializing Metal device caps: Intel(R) UHD Graphics 617
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56011
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.005987 seconds.
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 301.89 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.733 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2734ms)
+		BeginReloadAssembly (599ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (1628ms)
+			LoadAssemblies (593ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (360ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (102ms)
+			SetupLoadedEditorAssemblies (1019ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (16ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (302ms)
+				BeforeProcessingInitializeOnLoad (4ms)
+				ProcessInitializeOnLoadAttributes (538ms)
+				ProcessInitializeOnLoadMethodAttributes (157ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.032633 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/KitchenWar/Kitchen War/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/isa/Desktop/KitchenWar/Kitchen War/Library/PackageCache/com.unity.visualscripting@1.7.8/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 358.87 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.105 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4110ms)
+		BeginReloadAssembly (278ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (16ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (57ms)
+		EndReloadAssembly (3460ms)
+			LoadAssemblies (393ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (965ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (224ms)
+			SetupLoadedEditorAssemblies (1672ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (359ms)
+				BeforeProcessingInitializeOnLoad (313ms)
+				ProcessInitializeOnLoadAttributes (854ms)
+				ProcessInitializeOnLoadMethodAttributes (130ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.11f1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.93 seconds
+Refreshing native plugins compatible for Editor in 1.83 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4100 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 44 unused Assets / (170.5 KB). Loaded Objects now: 4562.
+Memory consumption went from 140.8 MB to 140.6 MB.
+Total: 28.945935 ms (FindLiveObjects: 0.593542 ms CreateObjectMapping: 0.575749 ms MarkObjects: 26.909122 ms  DeleteObjects: 0.863527 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 392062.658185 seconds.
+  path: Assets/CoffeeShopStarterPack/Prefabs/PW_sculent02_M.prefab
+  artifactKey: Guid(57d0183927158465caf394ee21052bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CoffeeShopStarterPack/Prefabs/PW_sculent02_M.prefab using Guid(57d0183927158465caf394ee21052bb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8067fbd63ad842a8dcb28a4c6221c19e') in 2.954929 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 195.802931 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Apple.prefab
+  artifactKey: Guid(7cd627a1919ab7748980fbcec674e6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Apple.prefab using Guid(7cd627a1919ab7748980fbcec674e6a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b6aa2f2c9c6ad1db88e79de4e25b6e1') in 0.684057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.078693 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Board.prefab
+  artifactKey: Guid(da39b72aa18fa5e48b10d7ec95000d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Board.prefab using Guid(da39b72aa18fa5e48b10d7ec95000d35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a2cf68ff88737b602baf141c46b7d3c') in 0.052454 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.830533 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Cap1.prefab
+  artifactKey: Guid(6eb85e11fa7e236498f71c3ed6de0cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Cap1.prefab using Guid(6eb85e11fa7e236498f71c3ed6de0cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e5c6938268163527bb076f17fd2b9c8') in 0.628902 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.605620 seconds.
+  path: Assets/Kitchen Asset/Prefabs/CornFlakes.prefab
+  artifactKey: Guid(95cb85553a003914f8143e52b614b08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/CornFlakes.prefab using Guid(95cb85553a003914f8143e52b614b08f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6153e995b7388910bfb322ee6df89bd') in 0.055783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.521056 seconds.
+  path: Assets/Kitchen Asset/Prefabs/deeppan.prefab
+  artifactKey: Guid(d15472a0ad9a62e49a54ad28cabd11cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/deeppan.prefab using Guid(d15472a0ad9a62e49a54ad28cabd11cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31410c4a7a7046e71f27d96480887567') in 0.062366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.908694 seconds.
+  path: Assets/Kitchen Asset/Prefabs/DeepPlate.prefab
+  artifactKey: Guid(573c24db696ae0b4091b43e2066b558d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/DeepPlate.prefab using Guid(573c24db696ae0b4091b43e2066b558d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81c7b9b69d2852434703552b72ea55e3') in 0.073930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.002795 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Fork.prefab
+  artifactKey: Guid(b540476b589f10f46abb067b58e9e698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Fork.prefab using Guid(b540476b589f10f46abb067b58e9e698) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f1ee1bf421341c1f359238fc0178c25') in 0.036141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 56.177543 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Glass.prefab
+  artifactKey: Guid(3d17997aaf2fc33409ffa2305a0d2dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Glass.prefab using Guid(3d17997aaf2fc33409ffa2305a0d2dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8d34b11cc7018e44af64e734a1c40b') in 0.153880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.669881 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Ladle.prefab
+  artifactKey: Guid(e63f6cfdb152e03478e17e66e6dc046e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Ladle.prefab using Guid(e63f6cfdb152e03478e17e66e6dc046e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1f5e4789f309859d86151e02310c4b4') in 0.070635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.832311 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Milk.prefab
+  artifactKey: Guid(a7b8c6cc9bfdb4d45a68517821f246a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Milk.prefab using Guid(a7b8c6cc9bfdb4d45a68517821f246a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bec5c55ad885adbdfbe3ede0e64819') in 0.124311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.890834 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Pan.prefab
+  artifactKey: Guid(12350bfc702bef44499bfd46c8dbb426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Pan.prefab using Guid(12350bfc702bef44499bfd46c8dbb426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce79e18700b3825fdd995e7640c32492') in 0.043192 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.353888 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Plate2.prefab
+  artifactKey: Guid(9fb9d47ff93c62c4d81c6e1da501012a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Plate2.prefab using Guid(9fb9d47ff93c62c4d81c6e1da501012a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15ad3f7a1c2250f52a0252c99be7801') in 0.113312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.546535 seconds.
+  path: Assets/Kitchen Asset/Prefabs/RollingPin.prefab
+  artifactKey: Guid(4097a285d710b744b9ff6cb685207bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/RollingPin.prefab using Guid(4097a285d710b744b9ff6cb685207bae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'caee0469d475040cdecb2ddba62104f7') in 0.170369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.733946 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Sauce1.prefab
+  artifactKey: Guid(c8b63a757cfc15c40a46b3d1a93f140b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Sauce1.prefab using Guid(c8b63a757cfc15c40a46b3d1a93f140b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dd020158415ad773c2112f75ab2fa94') in 1.195149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.335697 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Stand.prefab
+  artifactKey: Guid(f1969e8867becad48968186262fbf790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Stand.prefab using Guid(f1969e8867becad48968186262fbf790) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1d8f40122856796c8fc3d1644a86574') in 0.098106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.694243 seconds.
+  path: Assets/Kitchen Asset/Prefabs/table.prefab
+  artifactKey: Guid(f3b80ff6904947949a912527d471aaa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/table.prefab using Guid(f3b80ff6904947949a912527d471aaa6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5186286af3f227abf78d48a8190c9c8a') in 0.048021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.769031 seconds.
+  path: Assets/Kitchen Asset/Prefabs/WaterMElon.prefab
+  artifactKey: Guid(595f07ceb372f6843847d984ba9aaf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/WaterMElon.prefab using Guid(595f07ceb372f6843847d984ba9aaf8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e4b2854dae5c91bf5305f1ef17b01c') in 0.060445 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.318391 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Spoon.prefab
+  artifactKey: Guid(32cf7cb5324804148862798ee1f49df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Spoon.prefab using Guid(32cf7cb5324804148862798ee1f49df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cee8da5c6f2d4190f559aac470f1e651') in 0.046846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 104.466353 seconds.
+  path: Assets/Kitchen Asset/Prefabs/Lemon.prefab
+  artifactKey: Guid(7796e5e8ea6331043b117257a041c92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kitchen Asset/Prefabs/Lemon.prefab using Guid(7796e5e8ea6331043b117257a041c92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6f99e5cfa1ecf051a37b95dbb67c1c') in 0.116484 seconds 

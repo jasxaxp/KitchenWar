@@ -296,3 +296,27 @@ Received Import Request.
   path: Assets/kitchen_creation_kit/Textures
   artifactKey: Guid(d5458309a68744a2d92d630c83653d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/kitchen_creation_kit/Textures using Guid(d5458309a68744a2d92d630c83653d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27aaf9a68ebec25017be4cd7f9d0c10c') in 0.005336 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5516.523509 seconds.
+  path: Assets/Spiders/Prefabs
+  artifactKey: Guid(c337b06255826084cbc392fb8903968d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spiders/Prefabs using Guid(c337b06255826084cbc392fb8903968d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ad59adf5516a064aa398a09b29993c3') in 0.018533 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.016840 seconds.
+  path: Assets/Spiders/Prefabs/spider_black.prefab
+  artifactKey: Guid(e42dce10de392fb46b7cf553d7658cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spiders/Prefabs/spider_black.prefab using Guid(e42dce10de392fb46b7cf553d7658cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c57b9316aca505619b4e80547e28971') in 0.873893 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.778907 seconds.
+  path: Assets/Spiders/Prefabs/spider_brown.prefab
+  artifactKey: Guid(31ecbe2a1041ed848a499132cd1b1460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spiders/Prefabs/spider_brown.prefab using Guid(31ecbe2a1041ed848a499132cd1b1460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f48a896c135c29ddc72d99e0dcebe8b1') in 0.046615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.941759 seconds.
+  path: Assets/Spiders/Prefabs/spider_green.prefab
+  artifactKey: Guid(740728f854d793848a530ac50ca86174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Spiders/Prefabs/spider_green.prefab using Guid(740728f854d793848a530ac50ca86174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '568c0ff7e098bf51e089b59f5fd36950') in 0.124109 seconds 

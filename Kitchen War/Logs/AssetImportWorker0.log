@@ -284,3 +284,15 @@ Received Import Request.
   path: Assets/Kitchen Asset/Prefabs/Lemon.prefab
   artifactKey: Guid(7796e5e8ea6331043b117257a041c92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Kitchen Asset/Prefabs/Lemon.prefab using Guid(7796e5e8ea6331043b117257a041c92d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6f99e5cfa1ecf051a37b95dbb67c1c') in 0.116484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 334.006379 seconds.
+  path: Assets/kitchen_creation_kit/kitchen_creation_kit.FBX
+  artifactKey: Guid(ec40b66161fcdf5458ccee83032f58c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/kitchen_creation_kit.FBX using Guid(ec40b66161fcdf5458ccee83032f58c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7e0de90dea0b055adef63f1d02005e2') in 1.157926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 689.900526 seconds.
+  path: Assets/kitchen_creation_kit/Textures
+  artifactKey: Guid(d5458309a68744a2d92d630c83653d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/kitchen_creation_kit/Textures using Guid(d5458309a68744a2d92d630c83653d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27aaf9a68ebec25017be4cd7f9d0c10c') in 0.005336 seconds 

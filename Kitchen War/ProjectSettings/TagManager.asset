@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fluid
   - Cookies
+  - Enemy
   layers:
   - Default
   - TransparentFX

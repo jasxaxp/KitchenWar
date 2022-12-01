@@ -10,7 +10,7 @@ public class ChasingSpider : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-       Target = GameObject.FindWithTag("Player");
+       Target = GameObject.FindWithTag("Cookies");
 	   Enemy = GetComponent<NavMeshAgent>();
     }
 
@@ -18,7 +18,5 @@ public class ChasingSpider : MonoBehaviour
     void Update()
     {
         Enemy.SetDestination(Target.transform.position);
-		Debug.Log(Target.transform.position);
-		Debug.Log(Enemy.transform.position);
     }
 }

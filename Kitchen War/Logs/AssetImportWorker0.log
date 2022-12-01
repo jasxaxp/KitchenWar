@@ -1226,3 +1226,225 @@ Received Import Request.
   path: Assets/3D Models/Spiders/Prefabs/spider_green.prefab
   artifactKey: Guid(740728f854d793848a530ac50ca86174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/3D Models/Spiders/Prefabs/spider_green.prefab using Guid(740728f854d793848a530ac50ca86174) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5944ef7751ff6f3bf9fb6558e2a3076') in 0.034530 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1146.640692 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack
+  artifactKey: Guid(29300dac1f3064d8caf41aa6a3632d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack using Guid(29300dac1f3064d8caf41aa6a3632d12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f075f292129aa5a096749e02198644') in 0.004846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.727041 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx
+  artifactKey: Guid(c6ac66dbb76ac484e8a9441a6c5aa848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx using Guid(c6ac66dbb76ac484e8a9441a6c5aa848) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b146ede4d64669c6683eaf44992972a') in 0.003292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.691452 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full
+  artifactKey: Guid(d4c8ffe98b3ee4d229413915cf774c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full using Guid(d4c8ffe98b3ee4d229413915cf774c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b71b736bfeb7f0e06a35c1397ec4f288') in 0.003027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.699554 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Rig_unity
+  artifactKey: Guid(25c9f2223071d4d5ca63703ca162c1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Rig_unity using Guid(25c9f2223071d4d5ca63703ca162c1c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c121941e482bf7c48a6e3f80b363897') in 0.002568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.486913 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Rig_unreal
+  artifactKey: Guid(8122130f22c194156be90d573ad33404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Rig_unreal using Guid(8122130f22c194156be90d573ad33404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddaca7594e02d4f8cec8de77986c9e90') in 0.002776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.368030 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Shells
+  artifactKey: Guid(22269fadc4de649f1a37a7b19da243f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Shells using Guid(22269fadc4de649f1a37a7b19da243f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b29c3704911081a02ae5f173f37f90b8') in 0.003141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.233670 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_archer_tower_LVL_1.fbx
+  artifactKey: Guid(1d8142788f2854be79b002df5c7cfa57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_archer_tower_LVL_1.fbx using Guid(1d8142788f2854be79b002df5c7cfa57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b863be1c7870e3b785fe146da4ad4f35') in 0.204308 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.268457 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_archer_tower_LVL_2.fbx
+  artifactKey: Guid(28a91680e3780463496deebf3865e838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_archer_tower_LVL_2.fbx using Guid(28a91680e3780463496deebf3865e838) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b53c39ce460425a840b2f604139040de') in 0.049088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.902285 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_archer_tower_LVL_3.fbx
+  artifactKey: Guid(c2f265291415b457fb068047d80e01af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_archer_tower_LVL_3.fbx using Guid(c2f265291415b457fb068047d80e01af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50cc59c0275bb6d1858f981e1594c81') in 0.051229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.476581 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_archer_tower_LVL_4.fbx
+  artifactKey: Guid(5af6ee4de03f949edbd6a5858cc494de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_archer_tower_LVL_4.fbx using Guid(5af6ee4de03f949edbd6a5858cc494de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36c570da61a013f78251d0a88afe12ce') in 0.039785 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.695483 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Ballista_tower_LVL_1.fbx
+  artifactKey: Guid(23fa2320f221141119b1cb9631378a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Ballista_tower_LVL_1.fbx using Guid(23fa2320f221141119b1cb9631378a64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35172d61df90b35f8465681fb9485b0d') in 0.047357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.164326 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Ballista_tower_LVL_2.fbx
+  artifactKey: Guid(eb98aae006d2e43a89b7c34e2ce478e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Ballista_tower_LVL_2.fbx using Guid(eb98aae006d2e43a89b7c34e2ce478e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8d0db1c61046dcb9cad3b23d29d403') in 0.054675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.618876 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Ballista_tower_LVL_3.fbx
+  artifactKey: Guid(fab33a66d031345dabbed2bdbc5f03ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Ballista_tower_LVL_3.fbx using Guid(fab33a66d031345dabbed2bdbc5f03ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c70b6d55b3d04f3f9bf9364f7cc550') in 0.053306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.400710 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Ballista_tower_LVL_4.fbx
+  artifactKey: Guid(565028f2982534e9b9699d846223797e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Ballista_tower_LVL_4.fbx using Guid(565028f2982534e9b9699d846223797e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd68eb03c10116f706fbba2af4b0ac967') in 0.036692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.676566 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Cannon_tower_LVL_1.fbx
+  artifactKey: Guid(2dabaced311114fc0b7c94fe01b871a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Cannon_tower_LVL_1.fbx using Guid(2dabaced311114fc0b7c94fe01b871a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84968cf1505aa1592caa07ec12d287b8') in 0.037643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.578429 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Cannon_tower_LVL_2.fbx
+  artifactKey: Guid(39c7d5849cd624cecae5c0112a46e661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Cannon_tower_LVL_2.fbx using Guid(39c7d5849cd624cecae5c0112a46e661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627fbf20dd9e64ca77cb5270c442e2da') in 0.046451 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.038299 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Cannon_tower_LVL_3.fbx
+  artifactKey: Guid(bf938ed8826664e34b8131f5b3b5d2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Cannon_tower_LVL_3.fbx using Guid(bf938ed8826664e34b8131f5b3b5d2cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '748dda28987c5859b171b9f8fe96f31a') in 0.049781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.436496 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Cannon_tower_LVL_4.fbx
+  artifactKey: Guid(1c7e783c5ceaa4bd39d8db5d9e8acea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Cannon_tower_LVL_4.fbx using Guid(1c7e783c5ceaa4bd39d8db5d9e8acea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dffadef083a16d4f2ff1acc54bee2518') in 0.051490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.523255 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Poison_tower_LVL_1.fbx
+  artifactKey: Guid(a16e442a1f54441a59d117db6d2dbcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Poison_tower_LVL_1.fbx using Guid(a16e442a1f54441a59d117db6d2dbcc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '805f6f18afa9b4282ef8f17ae7434d22') in 0.039026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.268573 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Poison_tower_LVL_2.fbx
+  artifactKey: Guid(89a7bcaeaaaae48f682564e386ae9134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Poison_tower_LVL_2.fbx using Guid(89a7bcaeaaaae48f682564e386ae9134) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045cf8878cab7c0c4dc722afdb3236af') in 0.052851 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.547934 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Poison_tower_LVL_3.fbx
+  artifactKey: Guid(8ad318556af0644bc84bde76e825f156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Poison_tower_LVL_3.fbx using Guid(8ad318556af0644bc84bde76e825f156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cba19dd4cdede8c52c288dbd810a17c4') in 0.049601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.594218 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Poison_tower_LVL_4.fbx
+  artifactKey: Guid(1c80504a4dc3746ffa752396804d34ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Poison_tower_LVL_4.fbx using Guid(1c80504a4dc3746ffa752396804d34ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8acc13f54004a8bb385eeff5fc5f279') in 0.039842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.618771 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Wizard_tower_LVL_1.fbx
+  artifactKey: Guid(de28f40d74c214959a044e99ed6b947e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Wizard_tower_LVL_1.fbx using Guid(de28f40d74c214959a044e99ed6b947e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318f953617d19869455453c81669828a') in 0.037746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.847514 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Wizard_tower_LVL_2.fbx
+  artifactKey: Guid(bae1392ece3fd47ba8b5df84de30613d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Wizard_tower_LVL_2.fbx using Guid(bae1392ece3fd47ba8b5df84de30613d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3a58ea5d405bde0880233b97b3bb44') in 0.119298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.492582 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Wizard_tower_LVL_3.fbx
+  artifactKey: Guid(3094d6a5e98624335968d449f92257c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Wizard_tower_LVL_3.fbx using Guid(3094d6a5e98624335968d449f92257c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36258141fbf073cb776b5ee60cc646bf') in 0.050699 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.435159 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Wizard_tower_LVL_4.fbx
+  artifactKey: Guid(67b19842b9d574e93a4be7a84c080f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Full/_Wizard_tower_LVL_4.fbx using Guid(67b19842b9d574e93a4be7a84c080f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9b17dcd4f3097f1037761b4353e1396') in 0.052811 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 62.769303 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/License.txt
+  artifactKey: Guid(590ae0438a976407d9c063a81f9c2bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/License.txt using Guid(590ae0438a976407d9c063a81f9c2bf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9aebb4c6916dff1e0cf5cc47876c1c8') in 4.896820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.761445 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Rig_unity/archer_tower_LVL_2_rig.fbx
+  artifactKey: Guid(ee07a87afcd2f4859a6e68e2aa7e05d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Rig_unity/archer_tower_LVL_2_rig.fbx using Guid(ee07a87afcd2f4859a6e68e2aa7e05d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f000a0def84a840dff1220a47e79d2b') in 0.099203 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.207840 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Rig_unity/cannon_tower_LVL_1_rig.fbx
+  artifactKey: Guid(98fd7cc33c51141abb2f984280f4e042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Rig_unity/cannon_tower_LVL_1_rig.fbx using Guid(98fd7cc33c51141abb2f984280f4e042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a7baf2189f92c989865cc9cc3f6a5b3') in 0.119626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.108381 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/texture
+  artifactKey: Guid(bd42202b1347c4852a3f9b5e6d6c61fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/texture using Guid(bd42202b1347c4852a3f9b5e6d6c61fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7810649844fa88f5dff8c9760dc629de') in 0.003226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.079178 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Rig_unreal/cannon_tower_LVL_1_rig.fbx
+  artifactKey: Guid(c694664ceae7549f6bd32221714af7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Rig_unreal/cannon_tower_LVL_1_rig.fbx using Guid(c694664ceae7549f6bd32221714af7f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e099225896149fac7ab2789beb4ade58') in 0.076446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 390.328812 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Rig_unreal/poison_tower_LVL_3_rig.fbx
+  artifactKey: Guid(6c926af08c8244ef6b29b9843ec50f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Rig_unreal/poison_tower_LVL_3_rig.fbx using Guid(6c926af08c8244ef6b29b9843ec50f15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a45b377aab26eeb2d80a638ce2af3c') in 0.085365 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.813253 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Rig_unreal/wizard_tower_LVL_1_rig.fbx
+  artifactKey: Guid(ee84300fc316042eab2be41b725b2c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Rig_unreal/wizard_tower_LVL_1_rig.fbx using Guid(ee84300fc316042eab2be41b725b2c93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e589e55bdd18027506f76fc74eda03c') in 0.076174 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.850771 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Rig_unreal/ballista_tower_LVL_3_rig.fbx
+  artifactKey: Guid(6877e2df10f8a494b919fa683a8987e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Rig_unreal/ballista_tower_LVL_3_rig.fbx using Guid(6877e2df10f8a494b919fa683a8987e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '034c2ecf9c3317acbb1ed61923245150') in 0.099364 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.776013 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Rig_unreal/ballista_tower_LVL_4_rig.fbx
+  artifactKey: Guid(cd775a8e355514abab0bb5d018534851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Rig_unreal/ballista_tower_LVL_4_rig.fbx using Guid(cd775a8e355514abab0bb5d018534851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fe3c4b754acffccf69ffc288b45ffc8') in 0.089832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.156670 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Rig_unreal/ballista_tower_LVL_1.fbx
+  artifactKey: Guid(762ba162bd91c44009456bf2f4e9ebb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Rig_unreal/ballista_tower_LVL_1.fbx using Guid(762ba162bd91c44009456bf2f4e9ebb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c24c3d7348ef5de15bca012591ff4980') in 0.096941 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.087295 seconds.
+  path: Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Rig_unreal/ballista_tower_LVL_2.fbx
+  artifactKey: Guid(0f038eb0e59aa416fa2351a8c4891aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Free Defence Tower 3D Low Poly Pack/fbx/Rig_unreal/ballista_tower_LVL_2.fbx using Guid(0f038eb0e59aa416fa2351a8c4891aaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7d77bbf9e48cbd78a818438d2119fae') in 0.110937 seconds 

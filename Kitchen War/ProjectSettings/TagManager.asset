@@ -13,6 +13,12 @@ TagManager:
   - Bullet
   - Arrow
   - CoinText
+  - salt tower
+  - salt shoot
+  - sauce tower
+  - sauce shoot
+  - pepper tower
+  - pepper shoot
   layers:
   - Default
   - TransparentFX

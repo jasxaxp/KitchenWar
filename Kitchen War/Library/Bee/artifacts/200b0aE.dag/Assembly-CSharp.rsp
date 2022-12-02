@@ -410,6 +410,7 @@
 "Assets/ItemDropHandler.cs"
 "Assets/MoveSidetoSide.cs"
 "Assets/Scenes/NewBehaviourScript.cs"
+"Assets/Upgrade.cs"
 "Assets/Upgrade1.cs"
 "Assets/Upgrade2.cs"
 -langversion:9.0

@@ -9,7 +9,7 @@ public class Upgrade2 : MonoBehaviour
     void Start()
     {
         //Fetch the GameObject's Collider (make sure it has a Collider component)
-        m_Collider = GetComponent<Collider>();
+        m_Collider = GetComponent<BoxCollider>();
     }
 
     void Update()

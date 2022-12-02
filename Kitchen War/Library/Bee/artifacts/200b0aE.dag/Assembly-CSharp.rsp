@@ -400,6 +400,7 @@
 "Assets/3D Models/CoffeeShopStarterPack/Scripts/Utilities/BasicGameEvents.cs"
 "Assets/3D Models/CoffeeShopStarterPack/Scripts/Utilities/ScreenShotHelper.cs"
 "Assets/3D Models/CoffeeShopStarterPack/Scripts/Utilities/SliceHelper.cs"
+"Assets/BulletGenerator.cs"
 "Assets/ChasingSpider.cs"
 "Assets/DragObject.cs"
 "Assets/ItemDragHandler.cs"

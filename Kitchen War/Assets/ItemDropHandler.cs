@@ -12,11 +12,6 @@ public class ItemDropHandler : MonoBehaviour, IDropHandler
 	
 	public void OnDrop(PointerEventData eventData)
 	{
-		Vector3 dist;
-        Vector3 startPos;
-        float posX;
-        float posZ;
-        float posY;
 		RectTransform invPanel = transform as RectTransform;
 		
 		if (!RectTransformUtility.RectangleContainsScreenPoint(invPanel, Input.mousePosition))

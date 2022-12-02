@@ -10,6 +10,8 @@ TagManager:
   - Salt Sprite
   - Pepper Sprite
   - Hot Sauce Sprite
+  - Bullet
+  - Arrow
   layers:
   - Default
   - TransparentFX

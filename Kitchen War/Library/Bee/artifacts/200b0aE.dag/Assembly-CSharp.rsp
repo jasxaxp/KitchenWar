@@ -408,7 +408,10 @@
 "Assets/EnemyWave.cs"
 "Assets/ItemDragHandler.cs"
 "Assets/ItemDropHandler.cs"
+"Assets/MoveSidetoSide.cs"
 "Assets/Scenes/NewBehaviourScript.cs"
+"Assets/Upgrade1.cs"
+"Assets/Upgrade2.cs"
 -langversion:9.0
 
 /deterministic

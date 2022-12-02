@@ -4212,3 +4212,9 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1715.991416 seconds.
+  path: Assets/3D Models/Ant
+  artifactKey: Guid(77c8986f3c85f40118681b38704b2573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/3D Models/Ant using Guid(77c8986f3c85f40118681b38704b2573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5596049c57b2b7c71c3ce0c079f51fe3') in 0.079454 seconds 

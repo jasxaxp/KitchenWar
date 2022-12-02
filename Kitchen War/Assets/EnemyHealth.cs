@@ -8,7 +8,7 @@ public class EnemyHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+
     }
 
     // Update is called once per frame
@@ -22,6 +22,7 @@ public class EnemyHealth : MonoBehaviour
 		if (collision.transform.tag == "Bullet")
 		{
 			Destroy(enemy);
+			CoinSystem.total += 1;
 		}
 	}
 }

@@ -402,11 +402,13 @@
 "Assets/3D Models/CoffeeShopStarterPack/Scripts/Utilities/SliceHelper.cs"
 "Assets/BulletGenerator.cs"
 "Assets/ChasingSpider.cs"
+"Assets/CoinSystem.cs"
 "Assets/DragObject.cs"
 "Assets/EnemyHealth.cs"
 "Assets/EnemyWave.cs"
 "Assets/ItemDragHandler.cs"
 "Assets/ItemDropHandler.cs"
+"Assets/Scenes/NewBehaviourScript.cs"
 -langversion:9.0
 
 /deterministic

@@ -5,60 +5,27 @@ using UnityEngine;
 
 
 public class DragObject : MonoBehaviour
-
 {
-
-    private Vector3 mOffset;
-    private float mZCoord;
-
-    void OnMouseDown()
-
-    {
-
-        mZCoord = Camera.main.WorldToScreenPoint(
-
-            gameObject.transform.position).z;
-
-
-
-        // Store offset = gameobject world pos - mouse world pos
-
-        mOffset = gameObject.transform.position - GetMouseAsWorldPoint();
-
-    }
-
-
-
-    private Vector3 GetMouseAsWorldPoint()
-
-    {
-
-        // Pixel coordinates of mouse (x,y)
-
-        Vector3 mousePoint = Input.mousePosition;
-
-
-
-        // z coordinate of game object on screen
-
-        mousePoint.z = mZCoord;
-
-
-
-        // Convert it to world points
-
-        return Camera.main.ScreenToWorldPoint(mousePoint);
-
-    }
-
-
-
-    void OnMouseDrag()
-
-    {
-
-        transform.position = GetMouseAsWorldPoint() + mOffset;
-
-    }
-
+         Vector3 dist;
+         Vector3 startPos;
+         float posX;
+         float posZ;
+         float posY;
+         void OnMouseDown()
+         {
+             startPos = transform.position;
+             dist = Camera.main.WorldToScreenPoint(transform.position);
+             posX = Input.mousePosition.x - dist.x;
+             posY = Input.mousePosition.y - dist.y;
+             posZ = Input.mousePosition.z - dist.z;
+         }
+ 
+         void OnMouseDrag()
+         {
+             float disX = Input.mousePosition.x - posX;
+             float disY = Input.mousePosition.y - posY;
+             float disZ = Input.mousePosition.z - posZ;
+             Vector3 lastPos = Camera.main.ScreenToWorldPoint(new Vector3(disX, disY, disZ));
+             transform.position = new Vector3(lastPos.x, startPos.y, lastPos.z);
+         }
 }

@@ -12,6 +12,7 @@ TagManager:
   - Hot Sauce Sprite
   - Bullet
   - Arrow
+  - CoinText
   layers:
   - Default
   - TransparentFX

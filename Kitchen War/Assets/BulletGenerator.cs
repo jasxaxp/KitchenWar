@@ -29,7 +29,7 @@ public class BulletGenerator : MonoBehaviour
 		Rigidbody tempRigidBodyBullet = tempBullet.GetComponent<Rigidbody>();
 		tempRigidBodyBullet.AddForce(tempRigidBodyBullet.transform.forward * bulletSpeed);
 		Destroy(tempBullet, 4f);
-		yield return new WaitForSeconds(0.8f);
+		yield return new WaitForSeconds(2f);
 		Firing = false;
 	}
 }

@@ -21,7 +21,7 @@ public class EnemyHealth : MonoBehaviour
 	{
 		if (collision.transform.tag == "Bullet")
 		{
-			enemy.SetActive(false);
+			Destroy(enemy);
 		}
 	}
 }

@@ -36,7 +36,6 @@ public class EnemyWave : MonoBehaviour
 		if (total == 0)
 		{
 			enemy.SetActive(true);
-			yield return new WaitForSeconds(2f);
 		}
 		else if (total == 1)
 		{

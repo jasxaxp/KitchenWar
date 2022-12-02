@@ -402,6 +402,8 @@
 "Assets/3D Models/CoffeeShopStarterPack/Scripts/Utilities/SliceHelper.cs"
 "Assets/ChasingSpider.cs"
 "Assets/DragObject.cs"
+"Assets/ItemDragHandler.cs"
+"Assets/ItemDropHandler.cs"
 -langversion:9.0
 
 /deterministic

@@ -7,6 +7,9 @@ TagManager:
   - Fluid
   - Cookies
   - Enemy
+  - Salt Sprite
+  - Pepper Sprite
+  - Hot Sauce Sprite
   layers:
   - Default
   - TransparentFX

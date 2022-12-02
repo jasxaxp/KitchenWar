@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 147941643}
   m_Layer: 5
   m_Name: Image (2)
-  m_TagString: Untagged
+  m_TagString: Hot Sauce Sprite
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -225,7 +225,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0, g: 0.8, b: 1, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 0, g: 0.6039216, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -336,7 +336,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1163922631430126, guid: c8b63a757cfc15c40a46b3d1a93f140b, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4517759716199774, guid: c8b63a757cfc15c40a46b3d1a93f140b, type: 3}
       propertyPath: m_RootOrder
@@ -678,7 +678,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &469508984
 Transform:
   m_ObjectHideFlags: 0
@@ -812,7 +812,7 @@ GameObject:
   - component: {fileID: 626624991}
   m_Layer: 5
   m_Name: Image
-  m_TagString: Untagged
+  m_TagString: Salt Sprite
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -900,7 +900,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0, g: 0.7987695, b: 1, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 0, g: 0.60062504, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -931,9 +931,10 @@ GameObject:
   - component: {fileID: 650331478}
   - component: {fileID: 650331480}
   - component: {fileID: 650331479}
+  - component: {fileID: 650331481}
   m_Layer: 5
   m_Name: Salt Sprite
-  m_TagString: Untagged
+  m_TagString: Salt Sprite
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -978,7 +979,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ce0657edad3074d89abb669898ccfa78, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6527df4aaa28e46f1aa47fc95f682277, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -996,6 +997,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 650331477}
   m_CullTransparentMesh: 1
+--- !u!114 &650331481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 650331477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb4255e180988495f9928c0b6d0cf78b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &656091480
 GameObject:
   m_ObjectHideFlags: 0
@@ -1126,7 +1139,7 @@ GameObject:
   - component: {fileID: 806010008}
   m_Layer: 5
   m_Name: Image (1)
-  m_TagString: Untagged
+  m_TagString: Pepper Sprite
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1214,7 +1227,7 @@ MonoBehaviour:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
     m_HighlightedColor: {r: 0, g: 0.8, b: 1, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_SelectedColor: {r: 0, g: 0.6039216, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
@@ -1765,6 +1778,7 @@ GameObject:
   - component: {fileID: 1121575152}
   - component: {fileID: 1121575154}
   - component: {fileID: 1121575153}
+  - component: {fileID: 1121575155}
   m_Layer: 5
   m_Name: Inventory
   m_TagString: Untagged
@@ -1833,6 +1847,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1121575151}
   m_CullTransparentMesh: 1
+--- !u!114 &1121575155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1121575151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ea9629e1163f45b48c2c88415ea4c64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  salt: {fileID: 2545782737169632729}
+  pepper: {fileID: 469508983}
+  sauce: {fileID: 1839422903}
 --- !u!1 &1140630904
 GameObject:
   m_ObjectHideFlags: 0
@@ -1844,9 +1873,10 @@ GameObject:
   - component: {fileID: 1140630905}
   - component: {fileID: 1140630907}
   - component: {fileID: 1140630906}
+  - component: {fileID: 1140630908}
   m_Layer: 5
   m_Name: Pepper Sprite
-  m_TagString: Untagged
+  m_TagString: Pepper Sprite
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1891,7 +1921,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 06c9f04a53322476da58602528279780, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dc547147262f0437e925c592707ae561, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1909,6 +1939,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1140630904}
   m_CullTransparentMesh: 1
+--- !u!114 &1140630908
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1140630904}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb4255e180988495f9928c0b6d0cf78b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1226463610
 GameObject:
   m_ObjectHideFlags: 0
@@ -2744,9 +2786,10 @@ GameObject:
   - component: {fileID: 1473781985}
   - component: {fileID: 1473781987}
   - component: {fileID: 1473781986}
+  - component: {fileID: 1473781988}
   m_Layer: 5
   m_Name: Hot Sauce Sprite
-  m_TagString: Untagged
+  m_TagString: Hot Sauce Sprite
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2791,7 +2834,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d1aa19752f73345e5a16d7e1abc68fed, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4a31b41c21f264c80bbe1df3bb2869c6, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2809,6 +2852,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1473781984}
   m_CullTransparentMesh: 1
+--- !u!114 &1473781988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1473781984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eb4255e180988495f9928c0b6d0cf78b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1529337071
 GameObject:
   m_ObjectHideFlags: 0
@@ -6332,7 +6387,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!23 &2554708282533546777
 MeshRenderer:
   m_ObjectHideFlags: 0

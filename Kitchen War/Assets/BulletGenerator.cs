@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BulletGenerator : MonoBehaviour
 {
-	float bulletSpeed = 600;
+	float bulletSpeed = 700;
 	public GameObject bullet;
 	public bool Firing = false;
     // Start is called before the first frame update

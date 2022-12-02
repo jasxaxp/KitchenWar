@@ -403,6 +403,8 @@
 "Assets/BulletGenerator.cs"
 "Assets/ChasingSpider.cs"
 "Assets/DragObject.cs"
+"Assets/EnemyHealth.cs"
+"Assets/EnemyWave.cs"
 "Assets/ItemDragHandler.cs"
 "Assets/ItemDropHandler.cs"
 -langversion:9.0

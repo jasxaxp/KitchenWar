@@ -406,6 +406,7 @@
 "Assets/ChasingSpider.cs"
 "Assets/CoinSystem.cs"
 "Assets/DragObject.cs"
+"Assets/EnemyEnter.cs"
 "Assets/EnemyHealth.cs"
 "Assets/EnemyWave.cs"
 "Assets/ItemDragHandler.cs"

@@ -24,5 +24,10 @@ public class EnemyHealth : MonoBehaviour
 			Destroy(enemy);
 			CoinSystem.total += 1;
 		}
+
+		if (collision.transform.tag == "Player")
+		{
+			Destroy(enemy);
+        }
 	}
 }

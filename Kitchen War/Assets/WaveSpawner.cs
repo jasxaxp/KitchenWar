@@ -2,9 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+using UnityEngine.UI;
+using TMPro;
+
 public class WaveSpawner : MonoBehaviour 
 {
-	public enum SpawnState { SPAWNING, WAITING, COUNTING };
+	public enum SpawnState { SPAWNING, WAITING, COUNTING, FINISHED};
 	[System.Serializable]
 	public class Wave
 	{
@@ -23,15 +26,28 @@ public class WaveSpawner : MonoBehaviour
 
 	private float searchCountdown = 1f;
 
+    public Text waveText;
+	public int total = 1;
+
 	private SpawnState state = SpawnState.COUNTING;
 
 	void Start()
 	{
 		waveCountdown = timeBetweenWaves;
+        //waveText = GetComponent<Text>();
+        total = 1;
+        
 	}
 
 	void Update()
 	{
+        waveText.text = total.ToString();
+
+        if  (state == SpawnState.FINISHED) 
+        {
+            return;
+        }
+
 		if (state == SpawnState.WAITING)
 		{
 			// Checking if enemies are still alive
@@ -40,6 +56,15 @@ public class WaveSpawner : MonoBehaviour
 				// Begin a new round
 				Debug.Log(" This wave is completed!");
                 nextWave++;
+                total = total + 1;
+
+                if (total >= 3)
+                {
+                    total = 3;
+                    
+
+                }
+                
                 //return;
 	
 			}
@@ -54,6 +79,7 @@ public class WaveSpawner : MonoBehaviour
 			if (state != SpawnState.SPAWNING)
 			{
 				StartCoroutine(SpawnWave(waves[nextWave]));
+                total = 2;
 			}
 		}
 		else
@@ -70,6 +96,14 @@ public class WaveSpawner : MonoBehaviour
 		if (nextWave + 1 > waves.Length - 1)
 		{
 			Debug.Log("ALL WAVES COMPLETED!");
+            
+            if (GameObject.FindGameObjectWithTag ("Enemy") == null)
+            {
+                if (EnemyEnter.total >=1) 
+                {
+                    Debug.Log("Player Won!")
+                }
+            }
 		}
 		else
 		{

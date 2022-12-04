@@ -595,6 +595,7 @@ GameObject:
   - component: {fileID: 8889669876265411482}
   - component: {fileID: 5996663451261419573}
   - component: {fileID: 747721035427565684}
+  - component: {fileID: 6707329073055831668}
   m_Layer: 0
   m_Name: FantasyBee 1
   m_TagString: Enemy
@@ -662,8 +663,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 4.480469, y: 8.476349, z: 3.894658}
-  m_Center: {x: 0, y: 4.2020683, z: 0.0864498}
+  m_Size: {x: 1.9607809, y: 8.198057, z: 4.1588435}
+  m_Center: {x: -0.019615918, y: 4.125989, z: 0.66587114}
 --- !u!54 &5996663451261419573
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -702,6 +703,19 @@ NavMeshAgent:
   m_BaseOffset: 0
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &6707329073055831668
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 630162605017531306}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e480d470ca8dc47b996c23715f6bb9e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemy: {fileID: 630162605017531306}
 --- !u!1 &630191077563785710
 GameObject:
   m_ObjectHideFlags: 0

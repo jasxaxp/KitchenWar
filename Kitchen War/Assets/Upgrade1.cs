@@ -1,10 +1,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
+using TMPro;
+
+
+
 
 public class Upgrade1 : MonoBehaviour
+    
 {
     public Collider m_Collider;
+
 
     void Start()
     {
@@ -19,6 +26,7 @@ public class Upgrade1 : MonoBehaviour
             //Toggle the Collider on and off when pressing the space bar
             m_Collider.enabled = !m_Collider.enabled;
 			CoinSystem.total -= 5;
+        
         }
 	}
 }

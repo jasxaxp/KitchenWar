@@ -45,7 +45,21 @@ public class WaveSpawner : MonoBehaviour
 
         if  (state == SpawnState.FINISHED) 
         {
-            return;
+            if (nextWave >= 2)
+            {
+                Debug.Log("ALL WAVES COMPLETED!");
+                state = SpawnState.FINISHED;
+                
+                
+                
+                if (GameObject.FindGameObjectWithTag ("Enemy") == null)
+                {
+                    Debug.Log("Player Won!");
+                    
+                }
+            }
+          return;
+            
         }
 
 		if (state == SpawnState.WAITING)
@@ -61,6 +75,9 @@ public class WaveSpawner : MonoBehaviour
                 if (total >= 3)
                 {
                     total = 3;
+                    state = SpawnState.FINISHED;
+                  
+                   
                     
 
                 }
@@ -95,22 +112,23 @@ public class WaveSpawner : MonoBehaviour
 
 		if (nextWave + 1 > waves.Length - 1)
 		{
+			state = SpawnState.FINISHED;
 			Debug.Log("ALL WAVES COMPLETED!");
             
-            if (GameObject.FindGameObjectWithTag ("Enemy") == null)
-            {
-                if (EnemyEnter.total >=1) 
-                {
-                    Debug.Log("Player Won!")
-                }
-            }
+            //if (GameObject.FindGameObjectWithTag ("Enemy") == null)
+            //{
+            //    Debug.Log("Player Won!");
+                
+                
+          //  }
 		}
 		else
 		{
 			nextWave++;
 		}
-
 	}
+
+			
 
 	bool EnemyIsAlive()
     {

@@ -16,6 +16,7 @@ public class WaveSpawner : MonoBehaviour
 		public int count;
 		public float rate;
 	}
+    public GameObject YouWonScreen;
 
 	public Transform[] spawnPoints;
 
@@ -38,6 +39,10 @@ public class WaveSpawner : MonoBehaviour
         total = 1;
         
 	}
+    public void YouWon()
+    {
+        YouWonScreen.SetActive(true);
+    }
 
 	void Update()
 	{
@@ -55,6 +60,7 @@ public class WaveSpawner : MonoBehaviour
                 if (GameObject.FindGameObjectWithTag ("Enemy") == null)
                 {
                     Debug.Log("Player Won!");
+                    YouWon();
                     
                 }
             }

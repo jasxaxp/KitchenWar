@@ -475,7 +475,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Health: 0
-  healthBar: {fileID: 0}
   enemy: {fileID: 1773656247975474}
 --- !u!65 &-7424916365759007201
 BoxCollider:

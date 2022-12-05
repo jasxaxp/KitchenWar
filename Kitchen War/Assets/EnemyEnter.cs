@@ -11,6 +11,8 @@ public class EnemyEnter : MonoBehaviour
     public Text liveText;
 	public int total = 10;
 
+    public GameObject GameOverScreen;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +28,10 @@ public class EnemyEnter : MonoBehaviour
        liveText.text = total.ToString();
     }
 
+    public void GameOver ()
+    {
+        GameOverScreen.SetActive(true);
+    }
     private void OnTriggerEnter(Collider other)
         {
           
@@ -40,6 +46,7 @@ public class EnemyEnter : MonoBehaviour
             if (total == 0)
             {
                 Debug.Log("Player is dead");
+                GameOver();
             }
             
             

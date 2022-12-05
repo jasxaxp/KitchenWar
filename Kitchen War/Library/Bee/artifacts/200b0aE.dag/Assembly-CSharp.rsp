@@ -410,6 +410,7 @@
 "Assets/EnemyEnter.cs"
 "Assets/EnemyHealth.cs"
 "Assets/EnemyWave.cs"
+"Assets/GameOverScreen.cs"
 "Assets/ItemDragHandler.cs"
 "Assets/ItemDropHandler.cs"
 "Assets/MoveSidetoSide.cs"
@@ -418,6 +419,7 @@
 "Assets/Upgrade1.cs"
 "Assets/Upgrade2.cs"
 "Assets/WaveSpawner.cs"
+"Assets/YouWonScreen.cs"
 -langversion:9.0
 
 /deterministic

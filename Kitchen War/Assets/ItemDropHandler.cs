@@ -11,6 +11,7 @@ public class ItemDropHandler : MonoBehaviour, IDropHandler
 	public GameObject pepper;
 	public GameObject sauce;
 	private GameObject dupe;
+
 	
 	public void OnDrop(PointerEventData eventData)
 	{
@@ -22,6 +23,7 @@ public class ItemDropHandler : MonoBehaviour, IDropHandler
 			if (ItemDragHandler.tag == "Salt Sprite")
 			{
 				dupe = Instantiate(salt);
+			
 				if (CoinSystem.total >= 2)	
 				{
 					CoinSystem.total -= 2;
@@ -30,6 +32,7 @@ public class ItemDropHandler : MonoBehaviour, IDropHandler
 
 			else if (ItemDragHandler.tag == "Pepper Sprite")
 			{
+		
 				dupe = Instantiate(pepper);
 				if (CoinSystem.total >= 2)	
 				{
@@ -40,6 +43,7 @@ public class ItemDropHandler : MonoBehaviour, IDropHandler
 			
 			else if (ItemDragHandler.tag == "Hot Sauce Sprite")
 			{
+		
 				dupe = Instantiate(sauce);
 				if (CoinSystem.total >= 5)	
 				{

@@ -3844,19 +3844,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 589bf313d57894f96920e584e3c6c789, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  YouWonScreen: {fileID: 0}
+  YouWonScreen: {fileID: 1466383737}
   spawnPoints:
   - {fileID: 173573257}
   waves:
   - name: Spider Invasion
     enemy: {fileID: 93572858204046759, guid: 7afa6d044c7c24e728e4dd7636bf41ee, type: 3}
-    count: 10
+    count: 3
     rate: 0.5
   - name: Bee Invasion
     enemy: {fileID: 625253174735740584, guid: 397ba70c1bf8b4dde993781271dc5610, type: 3}
     count: 3
     rate: 1
-  timeBetweenWaves: 1
+  timeBetweenWaves: 40
   waveCountdown: 0
   waveText: {fileID: 2109090868}
   total: 1

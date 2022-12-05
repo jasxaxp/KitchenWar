@@ -34,9 +34,7 @@ public class EnemyHealth : MonoBehaviour
 		{
 			Health -= 1;
 			Debug.Log("Enemy was hit!");
-			
-		}
-			
+		
 		if (Health <= 0)
 		{
 			Destroy(enemy);
@@ -44,10 +42,15 @@ public class EnemyHealth : MonoBehaviour
 			Debug.Log("Enemy is dead!");
 
 		}
+			
+		}
+			
+		
 
 		if (collision.transform.tag == "Player")
 		{	
 			Destroy(enemy);
+			Debug.Log("Enemy meets cookies!");
 			
         }
 	}

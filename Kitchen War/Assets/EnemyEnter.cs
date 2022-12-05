@@ -34,6 +34,7 @@ public class EnemyEnter : MonoBehaviour
             {
             Debug.Log(" Enemy entered cookie area!");
             total -= 1;
+           
             
 
             if (total == 0)

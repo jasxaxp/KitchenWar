@@ -5,6 +5,7 @@ using UnityEngine.AI;
 
 public class ChasingRabbit : MonoBehaviour
 {
+
 	NavMeshAgent Enemy;
 	GameObject Target;
     // Start is called before the first frame update

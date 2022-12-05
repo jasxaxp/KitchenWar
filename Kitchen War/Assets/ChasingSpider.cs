@@ -12,11 +12,14 @@ public class ChasingSpider : MonoBehaviour
     {
        Target = GameObject.FindWithTag("Cookies");
 	   Enemy = GetComponent<NavMeshAgent>();
+      
     }
 
     // Update is called once per frame
     void Update()
     {
         Enemy.SetDestination(Target.transform.position);
+
     }
+    
 }

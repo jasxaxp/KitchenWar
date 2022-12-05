@@ -401,6 +401,7 @@
 "Assets/3D Models/CoffeeShopStarterPack/Scripts/Utilities/ScreenShotHelper.cs"
 "Assets/3D Models/CoffeeShopStarterPack/Scripts/Utilities/SliceHelper.cs"
 "Assets/BulletGenerator.cs"
+"Assets/CameraScript.cs"
 "Assets/ChasingBee.cs"
 "Assets/ChasingRabbit.cs"
 "Assets/ChasingSpider.cs"

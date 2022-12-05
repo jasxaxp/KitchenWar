@@ -474,6 +474,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e480d470ca8dc47b996c23715f6bb9e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Health: 0
+  healthBar: {fileID: 0}
   enemy: {fileID: 1773656247975474}
 --- !u!65 &-7424916365759007201
 BoxCollider:

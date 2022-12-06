@@ -40,7 +40,7 @@ public class WaveSpawner : MonoBehaviour
 		waveCountdown = timeBetweenWaves;
         //waveText = GetComponent<Text>();
         total = 1;
-		waveCountdownText.text = timeBetweenWaves.ToString();
+		//waveCountdownText.text = timeBetweenWaves.ToString();
         
 	}
     public void YouWon()

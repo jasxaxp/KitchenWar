@@ -274,7 +274,7 @@ MonoBehaviour:
     are two upgrades for each tower. The first upgrades allows the player to rotate
     the nozzle (hold the mouse down & drag the nozzle to rotate). The second upgrade
     includes the first upgrade and allows you to move the towers around (drag by
-    clicking between the nozzle and the body). "
+    holding the mouse down between the nozzle and the body). "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -443,7 +443,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &507584269
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1916,7 +1916,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1929650385
 RectTransform:
   m_ObjectHideFlags: 0

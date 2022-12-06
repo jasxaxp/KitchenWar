@@ -4313,13 +4313,13 @@ MonoBehaviour:
   waves:
   - name: Spider Invasion
     enemy: {fileID: 93572858204046759, guid: 7afa6d044c7c24e728e4dd7636bf41ee, type: 3}
-    count: 5
+    count: 10
     rate: 0.5
   - name: Bee Invasion
     enemy: {fileID: 625253174735740584, guid: 397ba70c1bf8b4dde993781271dc5610, type: 3}
     count: 3
     rate: 1
-  timeBetweenWaves: 40
+  timeBetweenWaves: 30
   waveCountdownText: {fileID: 2097898943}
   waveCountdown: 0
   waveText: {fileID: 481134869}

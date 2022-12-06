@@ -22,13 +22,16 @@ public class WaveSpawner : MonoBehaviour
 
 	public Wave[] waves;
 	private int nextWave = 0;
-	public float timeBetweenWaves = 5f;
+	public float timeBetweenWaves;
+
+	public Text waveCountdownText;
 	public float waveCountdown;
 
 	private float searchCountdown = 1f;
 
     public Text waveText;
 	public int total = 1;
+
 
 	private SpawnState state = SpawnState.COUNTING;
 
@@ -37,6 +40,7 @@ public class WaveSpawner : MonoBehaviour
 		waveCountdown = timeBetweenWaves;
         //waveText = GetComponent<Text>();
         total = 1;
+		waveCountdownText.text = timeBetweenWaves.ToString();
         
 	}
     public void YouWon()
@@ -47,6 +51,10 @@ public class WaveSpawner : MonoBehaviour
 	void Update()
 	{
         waveText.text = total.ToString();
+
+		waveCountdownText.text = timeBetweenWaves.ToString();
+
+
 
         if  (state == SpawnState.FINISHED) 
         {
@@ -95,6 +103,7 @@ public class WaveSpawner : MonoBehaviour
 			else
 			{
 				return;
+				
 			}
 		}
 
@@ -104,11 +113,15 @@ public class WaveSpawner : MonoBehaviour
 			{
 				StartCoroutine(SpawnWave(waves[nextWave]));
                 total = 2;
+				
+				
 			}
 		}
 		else
 		{
 			waveCountdown -= Time.deltaTime;
+			waveCountdownText.text = waveCountdown.ToString();
+			
 		}
 	}
 
@@ -116,6 +129,7 @@ public class WaveSpawner : MonoBehaviour
 	{
         state = SpawnState.COUNTING;
 		waveCountdown = timeBetweenWaves;
+		waveCountdownText.text = timeBetweenWaves.ToString();
 
 		if (nextWave + 1 > waves.Length - 1)
 		{

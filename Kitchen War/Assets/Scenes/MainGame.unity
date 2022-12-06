@@ -5842,7 +5842,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   liveText: {fileID: 1374692431}
-  total: 10
+  totalLives: 10
   GameOverScreen: {fileID: 994731021}
 --- !u!65 &1245561163
 BoxCollider:

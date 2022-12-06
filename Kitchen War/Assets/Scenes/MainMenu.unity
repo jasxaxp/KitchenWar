@@ -273,8 +273,8 @@ MonoBehaviour:
     purchase any tower (limit of one each). Then drag and drop the towers.\n\nThere
     are two upgrades for each tower. The first upgrades allows the player to rotate
     the nozzle (hold the mouse down & drag the nozzle to rotate). The second upgrade
-    allows you to move the towers around (drag by clicking between the nozzle and
-    the body). "
+    includes the first upgrade and allows you to move the towers around (drag by
+    clicking between the nozzle and the body). "
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -650,8 +650,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 49.141, y: -73}
-  m_SizeDelta: {x: 2868.624, y: 571.55}
+  m_AnchoredPosition: {x: -0.5344, y: -73}
+  m_SizeDelta: {x: 2967.9746, y: 571.55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &738245962
 MonoBehaviour:

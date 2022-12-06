@@ -47,6 +47,7 @@ public class EnemyEnter : MonoBehaviour
             {
                 Debug.Log("Player is dead");
                 GameOver();
+                Time.timeScale = 0f;
             }
             
             

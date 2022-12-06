@@ -61,6 +61,7 @@ public class WaveSpawner : MonoBehaviour
                 {
                     Debug.Log("Player Won!");
                     YouWon();
+					Time.timeScale = 0f;
                     
                 }
             }

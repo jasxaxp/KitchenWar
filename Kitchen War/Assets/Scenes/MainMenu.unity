@@ -242,7 +242,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.748}
-  m_AnchoredPosition: {x: -25.09491, y: -73}
+  m_AnchoredPosition: {x: -25.09491, y: -50}
   m_SizeDelta: {x: 206.7896, y: 319.5295}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &241084655
@@ -265,12 +265,12 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "There are three waves that the player must go through to win the game.\n\nThe
-    player can use their mouse to click and drag objects. They can use items in the
-    kitchen to act as barriers. \n\nPlayers need to collect coins by killing enemies
-    to upgrade the towers and buy towers. To place towers, the player must purchase
-    any tower (limit of one each). Then drag and drop the towers.\n\nPlayers have
-    10 lives only.\n"
+  m_text: "Players main goal is to defend the cookies. \n\nThere are three waves
+    that the player must go through to win the game.\n\nThe player can use their
+    mouse to click and drag objects. They can use items in the kitchen to act as
+    barriers. \n\nPlayers need to collect coins by killing enemies to upgrade the
+    towers and buy towers. To place towers, the player must purchase any tower (limit
+    of one each). Then drag and drop the towers.\n\nPlayers have 10 lives only.\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -646,8 +646,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6.9162, y: -94}
-  m_SizeDelta: {x: 1717.6948, y: 535.5944}
+  m_AnchoredPosition: {x: 6.9162, y: -101}
+  m_SizeDelta: {x: 1717.6948, y: 571.55}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &738245962
 MonoBehaviour:
@@ -1912,7 +1912,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1929650385
 RectTransform:
   m_ObjectHideFlags: 0

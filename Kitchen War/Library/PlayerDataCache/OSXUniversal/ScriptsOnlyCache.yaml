@@ -104,15 +104,27 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: MainMenu
     methodName: QuitGameButton
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: YouWonScreen
-    methodName: RestartButton
+    methodName: QuitGameButton
   - assembly: Assembly-CSharp
     fullTypeName: GameOverScreen
     methodName: MainMenuButton
   - assembly: Assembly-CSharp
     fullTypeName: GameOverScreen
-    methodName: RestartButton
+    methodName: QuitGameButton
   - assembly: Assembly-CSharp
     fullTypeName: YouWonScreen
     methodName: MainMenuButton
@@ -146,6 +158,10 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 90
       Script: {instanceID: 0}
     - Class: 91
@@ -157,61 +173,61 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1624}
+      Script: {instanceID: 1626}
     - Class: 114
-      Script: {instanceID: 1918}
+      Script: {instanceID: 1920}
     - Class: 114
-      Script: {instanceID: 2702}
+      Script: {instanceID: 2704}
     - Class: 114
-      Script: {instanceID: 2874}
+      Script: {instanceID: 2876}
     - Class: 114
-      Script: {instanceID: 3136}
+      Script: {instanceID: 3138}
     - Class: 114
-      Script: {instanceID: 3292}
+      Script: {instanceID: 3294}
     - Class: 114
-      Script: {instanceID: 3498}
+      Script: {instanceID: 3500}
     - Class: 114
-      Script: {instanceID: 3768}
+      Script: {instanceID: 3770}
     - Class: 114
-      Script: {instanceID: 4172}
+      Script: {instanceID: 4174}
     - Class: 114
-      Script: {instanceID: 4342}
+      Script: {instanceID: 4344}
     - Class: 114
-      Script: {instanceID: 4490}
+      Script: {instanceID: 4492}
     - Class: 114
-      Script: {instanceID: 4888}
+      Script: {instanceID: 4890}
     - Class: 114
-      Script: {instanceID: 4950}
+      Script: {instanceID: 4952}
     - Class: 114
-      Script: {instanceID: 5214}
+      Script: {instanceID: 5216}
     - Class: 114
-      Script: {instanceID: 5406}
+      Script: {instanceID: 5408}
     - Class: 114
-      Script: {instanceID: 5888}
+      Script: {instanceID: 5890}
     - Class: 114
-      Script: {instanceID: 5956}
+      Script: {instanceID: 5958}
     - Class: 114
-      Script: {instanceID: 5998}
+      Script: {instanceID: 6000}
     - Class: 114
-      Script: {instanceID: 6066}
+      Script: {instanceID: 6068}
     - Class: 114
-      Script: {instanceID: 6408}
+      Script: {instanceID: 6410}
     - Class: 114
-      Script: {instanceID: 6734}
+      Script: {instanceID: 6736}
     - Class: 114
-      Script: {instanceID: 6812}
+      Script: {instanceID: 6814}
     - Class: 114
-      Script: {instanceID: 7018}
+      Script: {instanceID: 7020}
     - Class: 114
-      Script: {instanceID: 7440}
+      Script: {instanceID: 7442}
     - Class: 114
-      Script: {instanceID: 7824}
+      Script: {instanceID: 7826}
     - Class: 114
-      Script: {instanceID: 7996}
+      Script: {instanceID: 7998}
     - Class: 114
-      Script: {instanceID: 8690}
+      Script: {instanceID: 8692}
     - Class: 114
-      Script: {instanceID: 9570}
+      Script: {instanceID: 9572}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -257,32 +273,36 @@ ScriptsOnlyBuild:
       Script: {instanceID: 0}
     - Class: 81
       Script: {instanceID: 0}
+    - Class: 82
+      Script: {instanceID: 0}
+    - Class: 83
+      Script: {instanceID: 0}
     - Class: 104
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1624}
+      Script: {instanceID: 1626}
     - Class: 114
-      Script: {instanceID: 2354}
+      Script: {instanceID: 2356}
     - Class: 114
-      Script: {instanceID: 2874}
+      Script: {instanceID: 2876}
     - Class: 114
-      Script: {instanceID: 3136}
+      Script: {instanceID: 3138}
     - Class: 114
-      Script: {instanceID: 3498}
+      Script: {instanceID: 3500}
     - Class: 114
-      Script: {instanceID: 4792}
+      Script: {instanceID: 4794}
     - Class: 114
-      Script: {instanceID: 5132}
+      Script: {instanceID: 5134}
     - Class: 114
-      Script: {instanceID: 6066}
+      Script: {instanceID: 6068}
     - Class: 114
-      Script: {instanceID: 6812}
+      Script: {instanceID: 6814}
     - Class: 114
-      Script: {instanceID: 7018}
+      Script: {instanceID: 7020}
     - Class: 114
-      Script: {instanceID: 7054}
+      Script: {instanceID: 7056}
     - Class: 114
-      Script: {instanceID: 7440}
+      Script: {instanceID: 7442}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 128
@@ -376,7 +396,7 @@ ScriptsOnlyBuild:
     className: UnityOnCollisionStayMessageListener
   - hash:
       serializedVersion: 2
-      Hash: 128a34b4fd23c0832f5c7d4c101cfb61
+      Hash: fba3ca7e9432a7985a936d5137c6b60c
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: WaveSpawner
@@ -1072,7 +1092,7 @@ ScriptsOnlyBuild:
     className: StateGraphAsset
   - hash:
       serializedVersion: 2
-      Hash: ff3c2e5445810f06ec0fc655b6738620
+      Hash: 28da3992f4eaa5126235c4a0ca8a7abd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: EnemyEnter

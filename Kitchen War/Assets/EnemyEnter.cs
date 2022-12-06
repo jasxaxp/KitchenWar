@@ -9,7 +9,7 @@ using TMPro;
 public class EnemyEnter : MonoBehaviour 
 {
     public Text liveText;
-	public int total = 10;
+	public int totalLives = 10;
 
     public GameObject GameOverScreen;
 
@@ -17,7 +17,7 @@ public class EnemyEnter : MonoBehaviour
     void Start()
     {
         //liveText = GetComponent<Text>();
-        total = 10;
+        totalLives = 10;
 
         
     }
@@ -25,7 +25,7 @@ public class EnemyEnter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       liveText.text = total.ToString();
+       liveText.text = totalLives.ToString();
     }
 
     public void GameOver ()
@@ -39,11 +39,11 @@ public class EnemyEnter : MonoBehaviour
             
             {
             Debug.Log(" Enemy entered cookie area!");
-            total -= 1;
+            totalLives -= 1;
            
             
 
-            if (total == 0)
+            if (totalLives == 0)
             {
                 Debug.Log("Player is dead");
                 GameOver();

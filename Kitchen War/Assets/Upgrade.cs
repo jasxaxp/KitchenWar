@@ -48,17 +48,26 @@ public class Upgrade : MonoBehaviour
 		{
 			if (upg1 == false)
 			{
-				upg1 = true;
-				GameObject obj = GameObject.FindWithTag("salt shoot");
-				obj.GetComponent<Upgrade1>().enabled = true;
-				saltText.text = Value2.ToString() + " Upgrade Salt Tower";
+				 if (CoinSystem.total >= 5)
+				 {
+					upg1 = true;
+					GameObject obj = GameObject.FindWithTag("salt shoot");
+					obj.GetComponent<Upgrade1>().enabled = true;
+					CoinSystem.total -= 5;
+					saltText.text = Value2.ToString() + " Upgrade Salt Tower";
+				 }
 			}
 			else if (upg2 == false)
 			{
-				upg2 = true;
-				GameObject obj = GameObject.FindWithTag("salt tower");
-				obj.GetComponent<Upgrade2>().enabled = true;
-				saltText.text = " No more Upgrades Available";
+				 if (CoinSystem.total >= 10)
+				 {
+					upg2 = true;
+					GameObject obj = GameObject.FindWithTag("salt tower");
+					obj.GetComponent<Upgrade2>().enabled = true;
+					CoinSystem.total -= 10;
+					saltText.text = " No more Upgrades Available";
+				 }
+				
 				
 			}
 		}
@@ -66,34 +75,50 @@ public class Upgrade : MonoBehaviour
 		{
 			if (upg11 == false)
 			{
-				upg11 = true;
-				GameObject obj = GameObject.FindWithTag("pepper shoot");
-				obj.GetComponent<Upgrade1>().enabled = true;
-				pepperText.text = Value2.ToString() + " Upgrade Pepper Tower";
+				if (CoinSystem.total >= 5)
+				{
+					upg11 = true;
+					GameObject obj = GameObject.FindWithTag("pepper shoot");
+					obj.GetComponent<Upgrade1>().enabled = true;
+					CoinSystem.total -= 5;
+					pepperText.text = Value2.ToString() + " Upgrade Pepper Tower";
+				}
 			}
 			else if (upg21 == false)
 			{
-				upg21 = true;
-				GameObject obj = GameObject.FindWithTag("pepper tower");
-				obj.GetComponent<Upgrade2>().enabled = true;
-				pepperText.text = " No more Upgrades Available";
+				if (CoinSystem.total >= 10)
+				{
+					upg21 = true;
+					GameObject obj = GameObject.FindWithTag("pepper tower");
+					obj.GetComponent<Upgrade2>().enabled = true;
+					CoinSystem.total -= 10;
+					pepperText.text = " No more Upgrades Available";
+				}
 		}
 		else if (message == "Third")
 		{
 			if (upg12 == false)
 			{
-				upg12 = true;
-				GameObject obj = GameObject.FindWithTag("sauce shoot");
-				obj.GetComponent<Upgrade1>().enabled = true;
-				sauceText.text = Value2.ToString() + " Upgrade Sauce Tower";
+				if (CoinSystem.total >= 5)
+				{
+					upg12 = true;
+					GameObject obj = GameObject.FindWithTag("sauce shoot");
+					obj.GetComponent<Upgrade1>().enabled = true;
+					CoinSystem.total -= 5;
+					sauceText.text = Value2.ToString() + " Upgrade Sauce Tower";
+				}
 				
 			}
 			else if (upg22 == false)
 			{
-				upg22 = true;
-				GameObject obj = GameObject.FindWithTag("sauce tower");
-				obj.GetComponent<Upgrade2>().enabled = true;
-				sauceText.text = " No more Upgrades Available";
+				if (CoinSystem.total >= 10)
+				{
+					upg22 = true;
+					GameObject obj = GameObject.FindWithTag("sauce tower");
+					obj.GetComponent<Upgrade2>().enabled = true;
+					CoinSystem.total -= 10;
+					sauceText.text = " No more Upgrades Available";
+				}
 				
 			}
 		}

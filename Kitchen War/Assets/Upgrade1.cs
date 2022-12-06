@@ -21,12 +21,7 @@ public class Upgrade1 : MonoBehaviour
 
     void Update()
     {
-        if (CoinSystem.total >= 5)
-        {
-            //Toggle the Collider on and off when pressing the space bar
-            m_Collider.enabled = !m_Collider.enabled;
-			CoinSystem.total -= 5;
-        
-        }
+         m_Collider.enabled = !m_Collider.enabled;
+	     
 	}
 }

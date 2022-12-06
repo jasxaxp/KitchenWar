@@ -30,7 +30,7 @@ public class WaveSpawner : MonoBehaviour
 	private float searchCountdown = 1f;
 
     public Text waveText;
-	public int total = 1;
+	public int totalWaves = 1;
 
 
 	private SpawnState state = SpawnState.COUNTING;
@@ -39,8 +39,8 @@ public class WaveSpawner : MonoBehaviour
 	{
 		waveCountdown = timeBetweenWaves;
         //waveText = GetComponent<Text>();
-        total = 1;
-		//waveCountdownText.text = timeBetweenWaves.ToString();
+        totalWaves = 1;
+		waveCountdownText.text = timeBetweenWaves.ToString();
         
 	}
     public void YouWon()
@@ -50,7 +50,7 @@ public class WaveSpawner : MonoBehaviour
 
 	void Update()
 	{
-        waveText.text = total.ToString();
+        waveText.text = totalWaves.ToString();
 
 		waveCountdownText.text = timeBetweenWaves.ToString();
 
@@ -85,11 +85,11 @@ public class WaveSpawner : MonoBehaviour
 				// Begin a new round
 				Debug.Log(" This wave is completed!");
                 nextWave++;
-                total = total + 1;
+                totalWaves = totalWaves + 1;
 
-                if (total >= 3)
+                if (totalWaves >= 3)
                 {
-                    total = 3;
+                    totalWaves = 3;
                     state = SpawnState.FINISHED;
                   
                    
@@ -112,7 +112,17 @@ public class WaveSpawner : MonoBehaviour
 			if (state != SpawnState.SPAWNING)
 			{
 				StartCoroutine(SpawnWave(waves[nextWave]));
-                total = 2;
+				waveText.text = totalWaves.ToString();
+                totalWaves = totalWaves + 1;
+				
+
+
+				if (totalWaves >= 4)
+				{
+					totalWaves = 3;
+
+				}
+
 				
 				
 			}
@@ -121,6 +131,7 @@ public class WaveSpawner : MonoBehaviour
 		{
 			waveCountdown -= Time.deltaTime;
 			waveCountdownText.text = waveCountdown.ToString();
+			waveText.text = totalWaves.ToString();
 			
 		}
 	}
@@ -160,6 +171,7 @@ public class WaveSpawner : MonoBehaviour
             if (GameObject.FindGameObjectWithTag ("Enemy") == null)
             {
                 return false;
+				waveCountdown = timeBetweenWaves;
             }
         }
             return true;

@@ -6,10 +6,9 @@ using UnityEngine.SceneManagement;
 
 public class YouWonScreen : MonoBehaviour
 {
-    public void RestartButton()
+    public void QuitGameButton()
     {
-        SceneManager.LoadScene("MainGame");
-
+        Application.Quit();
     }
 
     public void MainMenuButton()

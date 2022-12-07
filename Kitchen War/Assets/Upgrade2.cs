@@ -10,11 +10,6 @@ public class Upgrade2 : MonoBehaviour
     {
         //Fetch the GameObject's Collider (make sure it has a Collider component)
         m_Collider = GetComponent<BoxCollider>();
+		m_Collider.enabled = !m_Collider.enabled;
     }
-
-    void Update()
-    {
-        m_Collider.enabled = !m_Collider.enabled;
-		
-	}
 }

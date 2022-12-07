@@ -21,8 +21,8 @@ public class Upgrade : MonoBehaviour
     public Text saltText;
     public Text pepperText;
     public Text sauceText;
-	int Value1 = 5;
-	int Value2 = 10; 
+	private int Value1 = 5;
+	private int Value2 = 10; 
 
     
 	
@@ -94,6 +94,7 @@ public class Upgrade : MonoBehaviour
 					CoinSystem.total -= 10;
 					pepperText.text = " No more Upgrades Available";
 				}
+			}
 		}
 		else if (message == "Third")
 		{
@@ -122,6 +123,5 @@ public class Upgrade : MonoBehaviour
 				
 			}
 		}
-    }
-}
+	}
 }

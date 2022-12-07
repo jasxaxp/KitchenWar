@@ -17,11 +17,7 @@ public class Upgrade1 : MonoBehaviour
     {
         //Fetch the GameObject's Collider (make sure it has a Collider component)
         m_Collider = GetComponent<Collider>();
+		m_Collider.enabled = !m_Collider.enabled;
     }
 
-    void Update()
-    {
-         m_Collider.enabled = !m_Collider.enabled;
-	     
-	}
 }

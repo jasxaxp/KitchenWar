@@ -171,7 +171,7 @@ public class WaveSpawner : MonoBehaviour
             if (GameObject.FindGameObjectWithTag ("Enemy") == null)
             {
                 return false;
-				waveCountdown = timeBetweenWaves;
+				//waveCountdown = timeBetweenWaves;
             }
         }
             return true;

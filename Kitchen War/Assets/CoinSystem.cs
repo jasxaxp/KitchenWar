@@ -7,7 +7,7 @@ using TMPro;
 public class CoinSystem : MonoBehaviour
 {
 	public Text scoreText;
-	public static int total = 50;
+	public static int total = 5;
     // Start is called before the first frame update
     void Start()
     {
